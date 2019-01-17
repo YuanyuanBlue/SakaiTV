@@ -1,6 +1,0 @@
-framework module Pods_SakaiTVTests {
-  umbrella header "Pods-SakaiTVTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
