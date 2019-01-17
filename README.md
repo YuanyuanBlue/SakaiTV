@@ -49,9 +49,9 @@ Initially it only show the instructor, TA and our three team members, after we
 click the get button, all classmates enrolled in this course would show up. To use
 GET function, ECE564 server needs to run.
 
-profile:
+profile: Will show student's profile.
 
-calendar:
+calendar: Will show calendar.
 
 In this project we only show the data of ece564 course, course 650 is empty and 
 course 551 just displays some data in its gradebook.
