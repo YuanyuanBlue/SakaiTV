@@ -1,0 +1,288 @@
+{"entityPrefix": "assignment", "assignment_collection": [
+    {
+        "access": "SITE",
+        "allPurposeItemText": null,
+        "attachments": [],
+        "author": "9292c7f0-2134-4648-a514-725ad4db7175",
+        "authorLastModified": null,
+        "closeTime": {
+            "epochSecond": 1544063400,
+            "nano": 0
+        },
+        "closeTimeString": "2018-12-06T02:30:00Z",
+        "content": null,
+        "context": "a21cac74-836d-4232-a468-4f7e5639b235",
+        "creator": null,
+        "dropDeadTime": {
+            "epochSecond": 1543977000,
+            "nano": 0
+        },
+        "dropDeadTimeString": "2018-12-05T02:30:00Z",
+        "dueTime": {
+            "epochSecond": 1543977000,
+            "nano": 0
+        },
+        "dueTimeString": "2018-12-05T02:30:00Z",
+        "gradeScale": "UNGRADED_GRADE_TYPE",
+        "gradeScaleMaxPoints": null,
+        "gradebookItemId": null,
+        "gradebookItemName": null,
+        "groups": [],
+        "id": "458ca488-a27c-45eb-bdbd-e2f7fa00c36a",
+        "instructions": "<p>Details of HW4 can be found in the Class Handbook document on Sakai Resources - <a href=\"https:\/\/sakai.duke.edu\/access\/content\/group\/45f9032f-0538-41cf-9a2e-04c4355bd91e\/3.%20Class%20Handbook.pdf\" rel=\"noopener\" target=\"_blank\" rel=\"noopener\">click here.<\/a><\/p>",
+        "modelAnswerText": null,
+        "openTime": {
+            "epochSecond": 1543372200,
+            "nano": 0
+        },
+        "openTimeString": "2018-11-28T02:30:00Z",
+        "position": 0,
+        "privateNoteText": null,
+        "section": "",
+        "status": "OPEN",
+        "submissionType": "TEXT_AND_ATTACHMENT_ASSIGNMENT_SUBMISSION",
+        "timeCreated": {
+            "epochSecond": 1543372282,
+            "nano": 0
+        },
+        "timeLastModified": {
+            "epochSecond": 1543372282,
+            "nano": 0
+        },
+        "title": "HW4 - Graphics",
+        "allowResubmission": false,
+        "draft": false,
+        "entityReference": "\/assignment\/458ca488-a27c-45eb-bdbd-e2f7fa00c36a",
+        "entityURL": "https:\/\/sakai.duke.edu\/direct\/assignment\/458ca488-a27c-45eb-bdbd-e2f7fa00c36a",
+        "entityId": "458ca488-a27c-45eb-bdbd-e2f7fa00c36a",
+        "entityTitle": "HW4 - Graphics"
+    },{
+        "access": "SITE",
+        "allPurposeItemText": null,
+        "attachments": [],
+        "author": "9292c7f0-2134-4648-a514-725ad4db7175",
+        "authorLastModified": null,
+        "closeTime": {
+            "epochSecond": 1543608600,
+            "nano": 0
+        },
+        "closeTimeString": "2018-11-30T20:10:00Z",
+        "content": null,
+        "context": "a21cac74-836d-4232-a468-4f7e5639b235",
+        "creator": null,
+        "dropDeadTime": {
+            "epochSecond": 1543522200,
+            "nano": 0
+        },
+        "dropDeadTimeString": "2018-11-29T20:10:00Z",
+        "dueTime": {
+            "epochSecond": 1543522200,
+            "nano": 0
+        },
+        "dueTimeString": "2018-11-29T20:10:00Z",
+        "gradeScale": "SCORE_GRADE_TYPE",
+        "gradeScaleMaxPoints": null,
+        "gradebookItemId": 262633,
+        "gradebookItemName": "HW2 - View",
+        "groups": [],
+        "id": "8532f990-6f54-4097-9083-d49c95e6a9ac",
+        "instructions": "<p>This is hw2.<\/p>",
+        "modelAnswerText": null,
+        "openTime": {
+            "epochSecond": 1542312600,
+            "nano": 0
+        },
+        "openTimeString": "2018-11-15T20:10:00Z",
+        "position": 0,
+        "privateNoteText": null,
+        "section": "",
+        "status": "OPEN",
+        "submissionType": "NON_ELECTRONIC_ASSIGNMENT_SUBMISSION",
+        "timeCreated": {
+            "epochSecond": 1542312728,
+            "nano": 0
+        },
+        "timeLastModified": {
+            "epochSecond": 1543372172,
+            "nano": 0
+        },
+        "title": "HW2 - View",
+        "allowResubmission": false,
+        "draft": false,
+        "entityReference": "\/assignment\/8532f990-6f54-4097-9083-d49c95e6a9ac",
+        "entityURL": "https:\/\/sakai.duke.edu\/direct\/assignment\/8532f990-6f54-4097-9083-d49c95e6a9ac",
+        "entityId": "8532f990-6f54-4097-9083-d49c95e6a9ac",
+        "entityTitle": "HW2 - View"
+    },{
+        "access": "SITE",
+        "allPurposeItemText": null,
+        "attachments": [],
+        "author": "9292c7f0-2134-4648-a514-725ad4db7175",
+        "authorLastModified": null,
+        "closeTime": {
+            "epochSecond": 1546309620,
+            "nano": 0
+        },
+        "closeTimeString": "2019-01-01T02:27:00Z",
+        "content": null,
+        "context": "a21cac74-836d-4232-a468-4f7e5639b235",
+        "creator": null,
+        "dropDeadTime": {
+            "epochSecond": 1546309620,
+            "nano": 0
+        },
+        "dropDeadTimeString": "2019-01-01T02:27:00Z",
+        "dueTime": {
+            "epochSecond": 1546309620,
+            "nano": 0
+        },
+        "dueTimeString": "2019-01-01T02:27:00Z",
+        "gradeScale": "UNGRADED_GRADE_TYPE",
+        "gradeScaleMaxPoints": null,
+        "gradebookItemId": null,
+        "gradebookItemName": null,
+        "groups": [],
+        "id": "d846dbfc-d59e-4cc1-8e69-ae482da4273d",
+        "instructions": "<p>Details of HW3 can be found in the <a href=\"https:\/\/sakai.duke.edu\/access\/content\/group\/45f9032f-0538-41cf-9a2e-04c4355bd91e\/3.%20Class%20Handbook.pdf\" rel=\"noopener\" target=\"_blank\" rel=\"noopener\">Class Handbook<\/a> on Sakai Resources<\/p>",
+        "modelAnswerText": null,
+        "openTime": {
+            "epochSecond": 1543372020,
+            "nano": 0
+        },
+        "openTimeString": "2018-11-28T02:27:00Z",
+        "position": 0,
+        "privateNoteText": null,
+        "section": "",
+        "status": "OPEN",
+        "submissionType": "TEXT_AND_ATTACHMENT_ASSIGNMENT_SUBMISSION",
+        "timeCreated": {
+            "epochSecond": 1543372081,
+            "nano": 0
+        },
+        "timeLastModified": {
+            "epochSecond": 1543372193,
+            "nano": 0
+        },
+        "title": "HW3 - Table VC",
+        "allowResubmission": false,
+        "draft": false,
+        "entityReference": "\/assignment\/d846dbfc-d59e-4cc1-8e69-ae482da4273d",
+        "entityURL": "https:\/\/sakai.duke.edu\/direct\/assignment\/d846dbfc-d59e-4cc1-8e69-ae482da4273d",
+        "entityId": "d846dbfc-d59e-4cc1-8e69-ae482da4273d",
+        "entityTitle": "HW3 - Table VC"
+    },{
+        "access": "SITE",
+        "allPurposeItemText": null,
+        "attachments": [],
+        "author": "4f124c70-68ab-451c-b112-9c2f15b3415b",
+        "authorLastModified": null,
+        "closeTime": {
+            "epochSecond": 1542299100,
+            "nano": 0
+        },
+        "closeTimeString": "2018-11-15T16:25:00Z",
+        "content": null,
+        "context": "a21cac74-836d-4232-a468-4f7e5639b235",
+        "creator": null,
+        "dropDeadTime": {
+            "epochSecond": 1542212700,
+            "nano": 0
+        },
+        "dropDeadTimeString": "2018-11-14T16:25:00Z",
+        "dueTime": {
+            "epochSecond": 1542212700,
+            "nano": 0
+        },
+        "dueTimeString": "2018-11-14T16:25:00Z",
+        "gradeScale": "UNGRADED_GRADE_TYPE",
+        "gradeScaleMaxPoints": null,
+        "gradebookItemId": null,
+        "gradebookItemName": null,
+        "groups": [],
+        "id": "e7e53fd0-b5c9-4855-893d-aa94771890c7",
+        "instructions": "<p>This is the content of the Assignment<\/p>",
+        "modelAnswerText": null,
+        "openTime": {
+            "epochSecond": 1541607900,
+            "nano": 0
+        },
+        "openTimeString": "2018-11-07T16:25:00Z",
+        "position": 0,
+        "privateNoteText": null,
+        "section": "",
+        "status": "CLOSED",
+        "submissionType": "TEXT_AND_ATTACHMENT_ASSIGNMENT_SUBMISSION",
+        "timeCreated": {
+            "epochSecond": 1541607961,
+            "nano": 0
+        },
+        "timeLastModified": {
+            "epochSecond": 1542041862,
+            "nano": 0
+        },
+        "title": "HW1",
+        "allowResubmission": false,
+        "draft": false,
+        "entityReference": "\/assignment\/e7e53fd0-b5c9-4855-893d-aa94771890c7",
+        "entityURL": "https:\/\/sakai.duke.edu\/direct\/assignment\/e7e53fd0-b5c9-4855-893d-aa94771890c7",
+        "entityId": "e7e53fd0-b5c9-4855-893d-aa94771890c7",
+        "entityTitle": "HW1"
+    },{
+        "access": "SITE",
+        "allPurposeItemText": null,
+        "attachments": [],
+        "author": "9292c7f0-2134-4648-a514-725ad4db7175",
+        "authorLastModified": null,
+        "closeTime": {
+            "epochSecond": 1544063460,
+            "nano": 0
+        },
+        "closeTimeString": "2018-12-06T02:31:00Z",
+        "content": null,
+        "context": "a21cac74-836d-4232-a468-4f7e5639b235",
+        "creator": null,
+        "dropDeadTime": {
+            "epochSecond": 1543977060,
+            "nano": 0
+        },
+        "dropDeadTimeString": "2018-12-05T02:31:00Z",
+        "dueTime": {
+            "epochSecond": 1543977060,
+            "nano": 0
+        },
+        "dueTimeString": "2018-12-05T02:31:00Z",
+        "gradeScale": "UNGRADED_GRADE_TYPE",
+        "gradeScaleMaxPoints": null,
+        "gradebookItemId": null,
+        "gradebookItemName": null,
+        "groups": [],
+        "id": "fce86d57-d362-4278-afa6-c3ae827ce620",
+        "instructions": "<h1>•Coding Assignment<\/h1>\n\n<p>– Details of HW5 can be found in the <a href=\"https:\/\/sakai.duke.edu\/access\/content\/group\/45f9032f-0538-41cf-9a2e-04c4355bd91e\/3.%20Class%20Handbook.pdf\" rel=\"noopener\" target=\"_blank\" rel=\"noopener\">Class Handbook<\/a> on Resources.<\/p>",
+        "modelAnswerText": null,
+        "openTime": {
+            "epochSecond": 1543372260,
+            "nano": 0
+        },
+        "openTimeString": "2018-11-28T02:31:00Z",
+        "position": 0,
+        "privateNoteText": null,
+        "section": "",
+        "status": "OPEN",
+        "submissionType": "TEXT_AND_ATTACHMENT_ASSIGNMENT_SUBMISSION",
+        "timeCreated": {
+            "epochSecond": 1543372306,
+            "nano": 0
+        },
+        "timeLastModified": {
+            "epochSecond": 1543372306,
+            "nano": 0
+        },
+        "title": "HW5 - Storage",
+        "allowResubmission": false,
+        "draft": false,
+        "entityReference": "\/assignment\/fce86d57-d362-4278-afa6-c3ae827ce620",
+        "entityURL": "https:\/\/sakai.duke.edu\/direct\/assignment\/fce86d57-d362-4278-afa6-c3ae827ce620",
+        "entityId": "fce86d57-d362-4278-afa6-c3ae827ce620",
+        "entityTitle": "HW5 - Storage"
+    }
+]}

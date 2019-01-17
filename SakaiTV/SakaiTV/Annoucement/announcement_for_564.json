@@ -1,0 +1,49 @@
+{"entityPrefix": "announcement", "announcement_collection": [
+    {
+        "announcementId": "2d256307-8568-4f03-9a0a-ff07dc6e7523",
+        "attachments": [],
+        "body": "<p>Presenation Schedule is as follows:<\/p>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<h1>November 28th<\/h1>\n\t\t\t<\/td>\n\t\t\t<td>\n\t\t\t<p> <\/p>\n\t\t\t<\/td>\n\t\t<\/tr>\n\t\t<tr>\n\t\t\t<td>MoveIt!  11:45<\/td>\n\t\t\t<td> <\/td>\n\t\t<\/tr>\n\t\t<tr>\n\t\t\t<td>SakaiTV  12:00<\/td>\n\t\t\t<td> <\/td>\n\t\t<\/tr>\n\t\t<tr>\n\t\t\t<td>DukeEats  12:15<\/td>\n\t\t\t<td> <\/td>\n\t\t<\/tr>\n\t\t<tr>\n\t\t\t<td>Home Health Care 12:30<\/td>\n\t\t\t<td> <\/td>\n\t\t<\/tr>\n\t\t<tr>\n\t\t\t<td>Petbnb 12:45<\/td>\n\t\t\t<td> <\/td>\n\t\t<\/tr>\n\t<\/tbody>\n<\/table>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td> <\/td>\n\t\t\t<td>\n\t\t\t<h1>December 3rd<\/h1>\n\t\t\t<\/td>\n\t\t<\/tr>\n\t\t<tr>\n\t\t\t<td> <\/td>\n\t\t\t<td>Omnimoji  11:45<\/td>\n\t\t<\/tr>\n\t\t<tr>\n\t\t\t<td> <\/td>\n\t\t\t<td>Resiliency  12:00<\/td>\n\t\t<\/tr>\n\t\t<tr>\n\t\t\t<td> <\/td>\n\t\t\t<td>DukeWalks  12:15<\/td>\n\t\t<\/tr>\n\t\t<tr>\n\t\t\t<td> <\/td>\n\t\t\t<td>DukeFlyer  12:30<\/td>\n\t\t<\/tr>\n\t\t<tr>\n\t\t\t<td> <\/td>\n\t\t\t<td>Venice  12:45<\/td>\n\t\t<\/tr>\n\t<\/tbody>\n<\/table>\n\n<h1><br \/>\n <\/h1>",
+        "channel": "main",
+        "createdByDisplayName": "Tong Xiong",
+        "createdOn": 1544087367904,
+        "id": "a21cac74-836d-4232-a468-4f7e5639b235:main:2d256307-8568-4f03-9a0a-ff07dc6e7523",
+        "siteId": "a21cac74-836d-4232-a468-4f7e5639b235",
+        "siteTitle": "SakaiTV Test Site",
+        "title": "PRESENTATION SCHEDULE",
+        "entityReference": "\/announcement\/a21cac74-836d-4232-a468-4f7e5639b235:main:2d256307-8568-4f03-9a0a-ff07dc6e7523",
+        "entityURL": "https:\/\/sakai.duke.edu\/direct\/announcement\/a21cac74-836d-4232-a468-4f7e5639b235:main:2d256307-8568-4f03-9a0a-ff07dc6e7523",
+        "entityId": "a21cac74-836d-4232-a468-4f7e5639b235:main:2d256307-8568-4f03-9a0a-ff07dc6e7523",
+        "entityTitle": "PRESENTATION SCHEDULE"
+    },{
+        "announcementId": "26d8ad26-09be-4558-87af-5c401c67d427",
+        "attachments": [],
+        "body": "<p>Here is some information about the class of Sept 17th as well as some other stuff (sending this as email and posting to Piazza and Sakai):<\/p>\n\n<ul>\n\t<li>Since yesterday was technically not a required class, there was no attendance taken but I did record a lecture to be watched at your leisure.  You can find it on Panopto in the <strong>2018 Fall :: ECE 564 :: Course Recordings<\/strong> folder.  I won't repeat this lecture, so please watch as it gives an overview of some of the sample code I placed out on GitLab.<\/li>\n\t<li>I moved HW3 Due Date out to Monday morning.<\/li>\n\t<li>On Wed Sept 19th we will talk about how we are doing on Teams and Projects.  This is still due next week so I want to make sure you all are making progress.<\/li>\n\t<li>Due to popular demand, I have moved all the recorded lectures out to the Panopto folder and will do so through the homework sections.<\/li>\n<\/ul>\n\n<p> <\/p>",
+        "channel": "main",
+        "createdByDisplayName": "Tong Xiong",
+        "createdOn": 1544069590048,
+        "id": "a21cac74-836d-4232-a468-4f7e5639b235:main:26d8ad26-09be-4558-87af-5c401c67d427",
+        "siteId": "a21cac74-836d-4232-a468-4f7e5639b235",
+        "siteTitle": "SakaiTV Test Site",
+        "title": "Info about the Sept 17 class and Panopto",
+        "entityReference": "\/announcement\/a21cac74-836d-4232-a468-4f7e5639b235:main:26d8ad26-09be-4558-87af-5c401c67d427",
+        "entityURL": "https:\/\/sakai.duke.edu\/direct\/announcement\/a21cac74-836d-4232-a468-4f7e5639b235:main:26d8ad26-09be-4558-87af-5c401c67d427",
+        "entityId": "a21cac74-836d-4232-a468-4f7e5639b235:main:26d8ad26-09be-4558-87af-5c401c67d427",
+        "entityTitle": "Info about the Sept 17 class and Panopto"
+    },{
+        "announcementId": "b5605712-85df-486b-a75c-f7389c900d5c",
+        "attachments": [],
+        "body": "<ol>\n\t<li>Get your textbooks (iOS 11 version).  The text is optional but recommended.<\/li>\n\t<li>Get the Swift Programming Language 4  from iBooks (it is free download)<\/li>\n\t<li>You will get an email to sign up for your Apple Developer ID - make sure you use your SHORT (netid) duke id to sign up.<\/li>\n\t<li>Get your laptop (from me if you don't have one) and download Xcode 9.4.1<\/li>\n\t<li>Log into gitlab.oit.duke.edu using Shibboleth so you will be a valid GitLab user.  I also suggest creating a GitLab userid and password while you are in there.<\/li>\n\t<li>Activate your Piazza account if you have not already, make sure you can access from Sakai<br \/>\n\t <\/li>\n<\/ol>",
+        "channel": "main",
+        "createdByDisplayName": "Tong Xiong",
+        "createdOn": 1544069539043,
+        "id": "a21cac74-836d-4232-a468-4f7e5639b235:main:b5605712-85df-486b-a75c-f7389c900d5c",
+        "siteId": "a21cac74-836d-4232-a468-4f7e5639b235",
+        "siteTitle": "SakaiTV Test Site",
+        "title": "Things to do to prepare for class",
+        "entityReference": "\/announcement\/a21cac74-836d-4232-a468-4f7e5639b235:main:b5605712-85df-486b-a75c-f7389c900d5c",
+        "entityURL": "https:\/\/sakai.duke.edu\/direct\/announcement\/a21cac74-836d-4232-a468-4f7e5639b235:main:b5605712-85df-486b-a75c-f7389c900d5c",
+        "entityId": "a21cac74-836d-4232-a468-4f7e5639b235:main:b5605712-85df-486b-a75c-f7389c900d5c",
+        "entityTitle": "Things to do to prepare for class"
+    }
+]}
+

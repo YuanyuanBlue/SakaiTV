@@ -1,0 +1,34 @@
+{
+    "items": [
+        {
+            "attachments": [],
+            "data": "<p><span style=\"font-size: 18.0px;\"><strong>Course Times<\/strong><\/span><\/p>\n\n<p>Days: Monday \/ Wednesday<\/p>\n\n<p>Time: 11:45 – 1:00 PM<\/p>\n\n<p>Location: Teer 106<\/p>\n\n<p><span style=\"font-size: 18.0px;\"><strong>Instructor<\/strong><\/span><\/p>\n\n<p><strong>Richard (Ric) D. Telford<\/strong><\/p>\n\n<p><strong>Title<\/strong>: Adjunct Associate Professor, Pratt School of Engineering<\/p>\n\n<p><strong>Education<\/strong>: BS, Computer Science, Trinity University, San Antonio, TX<\/p>\n\n<p><strong>Specialization<\/strong>: New Technology Development, Business Strategy<\/p>\n\n<p><strong>Contact<\/strong>: ric.telford@duke.edu, 919-418-0934<\/p>\n\n<p>Ric Telford's professional business career highlights 32 years of product and service development experience and is noted for bringing innovative approaches to the design and development of key technologies. During his tenure at IBM, Telford played a number of key roles in various software and service initiatives for IBM, where he most recently focused on Cloud computing. Ric was one of the first executives in IBM to understand the game-changing impact of Cloud Computing and help set IBM’s course. Ric has stayed at the forefront of emerging technologies throughout his career. He served as Director of Technology for the IBM CIO, responsible for the development, implementation and adoption of technologies that hastened the transformation of IBM into an e-business. Ric went on to become VP of Autonomic Computing, where he was responsible for defining and driving the Autonomic Computing initiative for IBM. In this capacity, Ric worked across IBM, as well as the industry and academia, to promote the adoption of open-standards based self-managing technologies. Currently, Ric is the Founder of Telford Ventures, LLC, which works with start-up companies in the Triangle and Co-founder of Pneumonics, Inc.<\/p>\n\n<p>Course Description: This comprehensive course explores the world of mobile application development with a specific focus on the needs of engineers. The class centers on the Apple environment, with the development environment being on OS X and the target environment being an iOS device – iPad, iPhone, iPod Touch or Apple Watch. The class will include lecture and projects applied in a real world context focused on the common programming “patterns” for engineers in academia or business – standalone apps, apps connected to other systems, and apps connected to the cloud. Students will learn the fundamentals essential to understanding all aspects of app development and will be able to converse in some depth in each of the areas studied upon completion. This is taught in a team environment where students are required to present their project proposals and to deliver an app at the end of the semester as a final project. <\/p>\n\n<p><strong>Texts (optional): <\/strong><\/p>\n\n<p>• The Swift Programming Language, (Free download from Apple Store \/ iTunes) 、<br \/>\n• iOS 11 Programming Fundamentals with Swift, Matt Neuberg, O’Reilly Media<\/p>\n\n<p>• Programming iOS 11, Matt Neuberg, O’Reilly Media<\/p>\n\n<p><strong>Course Grading:<\/strong><\/p>\n\n<p>Grades are kept in Sakai Gradebook and are based on a 1000 point system that breaks down as follows:<\/p>\n\n<p>• 5% Class Attendance and Participation<\/p>\n\n<p>• 35% Homework<\/p>\n\n<p>• 20% Midterm Exam<br \/>\n• 15% Project Deliverables<\/p>\n\n<p>• 25% Final Project<\/p>\n\n<p> <\/p>\n",
+            "endDate": 0,
+            "order": 1,
+            "startDate": 0,
+            "title": "ECE 564 syllabus"
+        },
+        {
+            "attachments": [],
+            "data": "<p><strong>Duke Community Standard<\/strong><\/p>\n\n<p>1. I will not lie, cheat, or steal in my academic endeavors, nor will I accept the actions of those who do.<\/p>\n\n<p>2. I will conduct myself responsibly and honorably in all my activities as a Duke student.<\/p>\n\n<p><strong>Class Policy<\/strong><\/p>\n\n<p>• Collaboration is expected.<\/p>\n\n<p>• All work is to be original.<\/p>\n\n<p>• Credit all sources. Plagiarism is a violation<\/p>\n\n<p>• <strong>Penalty<\/strong>: Zero credit for projects that violate the policy, including the final exam. All team members will receive a zero for group submissions that violate the policy<\/p>\n",
+            "endDate": 0,
+            "order": 2,
+            "startDate": 0,
+            "title": "Academic Integrity"
+        },
+        {
+            "attachments": [],
+            "data": "<p>Grades are kept in Sakai Gradebook and are based on a 1000 point system that breaks down as follows: <br \/><\/p><p>• 5% Class Attendance and Participation <br \/><\/p><p>• 35% Homework • 20% Midterm Exam <br \/><\/p><p>• 15% Project Deliverables <br \/><\/p><p>• 25% Final Project<br \/><\/p>",
+            "endDate": 0,
+            "order": 3,
+            "startDate": 0,
+            "title": "course grading"
+        }
+    ],
+    "redirectUrl": null,
+    "siteId": "a21cac74-836d-4232-a468-4f7e5639b235",
+    "entityReference": "\/syllabus",
+    "entityURL": "https:\/\/sakai.duke.edu\/direct\/syllabus",
+    "entityTitle": "site"
+}
+
