@@ -1,0 +1,1080 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D26CAA9162B2ECE1ACED9F8 /* Pods_SakaiTVTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB4427EEA6BED40374D378FC /* Pods_SakaiTVTests.framework */; };
+		4C2D94C3A77E014D8F68D960 /* Pods_SakaiTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B41246838DFD34969D8DE56E /* Pods_SakaiTV.framework */; };
+		9E0CDD4C23ED8567960E26B9 /* Pods_SakaiTVUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C660F5DD2C62CDA6E69C7F10 /* Pods_SakaiTVUITests.framework */; };
+		C526198B21BAB235005ABB8C /* ProfileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C526198821BAB235005ABB8C /* ProfileData.swift */; };
+		C526198C21BAB235005ABB8C /* ProfileUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C526198921BAB235005ABB8C /* ProfileUtilities.swift */; };
+		C526198D21BAB235005ABB8C /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C526198A21BAB235005ABB8C /* ProfileTableViewCell.swift */; };
+		C58923B521C2E25C00475A5C /* Calendar in Resources */ = {isa = PBXBuildFile; fileRef = C58923B421C2E25C00475A5C /* Calendar */; };
+		C5D8F88E21C2E36C0052D1B1 /* CalendarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8F88D21C2E36C0052D1B1 /* CalendarData.swift */; };
+		C5D8F89021C2E36E0052D1B1 /* CalendarUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8F88F21C2E36E0052D1B1 /* CalendarUtilities.swift */; };
+		E5C2AD5221BA9C7C009E2480 /* newresourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C2AD5121BA9C7C009E2480 /* newresourceViewController.swift */; };
+		E5E0BA34218E3B4D0030A5C1 /* AllClassesDef.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E0BA33218E3B4D0030A5C1 /* AllClassesDef.swift */; };
+		ED0AD61721A273080087B8A1 /* membershipCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0AD61621A273080087B8A1 /* membershipCollectionViewCell.swift */; };
+		ED0AD61921A27A870087B8A1 /* courseicon.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0AD61821A27A870087B8A1 /* courseicon.png */; };
+		ED0AD61C21A27D3E0087B8A1 /* headercell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0AD61B21A27D3E0087B8A1 /* headercell.swift */; };
+		ED0AD61E21A27D590087B8A1 /* annocell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0AD61D21A27D590087B8A1 /* annocell.swift */; };
+		ED527D4521AE2EFB00BB5C39 /* 4. Project Ideas.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ED527D4421AE2EFB00BB5C39 /* 4. Project Ideas.pdf */; };
+		ED527D4721AE2F0600BB5C39 /* 3. Class Handbook.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ED527D4621AE2F0600BB5C39 /* 3. Class Handbook.pdf */; };
+		ED527D4921AE32A700BB5C39 /* Showcase.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ED527D4821AE32A700BB5C39 /* Showcase.pdf */; };
+		ED527D4B21AE32AD00BB5C39 /* starwars bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED527D4A21AE32AD00BB5C39 /* starwars bg.jpg */; };
+		ED5AC44421966AF600CB8FD8 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5AC44321966AF600CB8FD8 /* MasterViewController.swift */; };
+		ED5AC44621966D7B00CB8FD8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5AC44521966D7B00CB8FD8 /* DetailViewController.swift */; };
+		ED5AC449219A087A00CB8FD8 /* GradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5AC448219A087A00CB8FD8 /* GradeView.swift */; };
+		ED5AC44D219A092F00CB8FD8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5AC44C219A092F00CB8FD8 /* Utilities.swift */; };
+		ED5AC44F219A20C700CB8FD8 /* GradeTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED5AC44E219A20C700CB8FD8 /* GradeTable.xib */; };
+		ED5AC456219A820F00CB8FD8 /* ScoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5AC454219A820F00CB8FD8 /* ScoreTableViewCell.swift */; };
+		ED5AC457219A820F00CB8FD8 /* ScoreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED5AC455219A820F00CB8FD8 /* ScoreTableViewCell.xib */; };
+		ED5AC45D219B848000CB8FD8 /* ClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5AC45C219B848000CB8FD8 /* ClassView.swift */; };
+		ED5AC45F219BA11600CB8FD8 /* DukePersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5AC45E219BA11600CB8FD8 /* DukePersonTableViewCell.swift */; };
+		ED5AC461219BA88C00CB8FD8 /* ClassData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5AC460219BA88C00CB8FD8 /* ClassData.swift */; };
+		ED5AC463219BDDAE00CB8FD8 /* funny.gif in Resources */ = {isa = PBXBuildFile; fileRef = ED5AC462219BDDAD00CB8FD8 /* funny.gif */; };
+		ED5AC468219D33F500CB8FD8 /* Assignment.json in Resources */ = {isa = PBXBuildFile; fileRef = ED5AC467219D33F500CB8FD8 /* Assignment.json */; };
+		ED5AC46A219D34C300CB8FD8 /* AssignmentViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5AC469219D34C300CB8FD8 /* AssignmentViewCell.swift */; };
+		ED5AC46C219D3ADD00CB8FD8 /* AssignmentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5AC46B219D3ADD00CB8FD8 /* AssignmentData.swift */; };
+		ED7FE67221A901BA00CAB37D /* Boulevard.otf in Resources */ = {isa = PBXBuildFile; fileRef = ED7FE67121A901B900CAB37D /* Boulevard.otf */; };
+		ED7FE67421A901DA00CAB37D /* Anjellic.otf in Resources */ = {isa = PBXBuildFile; fileRef = ED7FE67321A901DA00CAB37D /* Anjellic.otf */; };
+		ED7FE67621A901EF00CAB37D /* Hello Mozza.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED7FE67521A901EE00CAB37D /* Hello Mozza.ttf */; };
+		ED7FE67821A901FA00CAB37D /* HARRYP__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = ED7FE67721A901FA00CAB37D /* HARRYP__.TTF */; };
+		ED7FE67A21A9022300CAB37D /* Guthen Bloots Personal Use.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED7FE67921A9022300CAB37D /* Guthen Bloots Personal Use.ttf */; };
+		ED7FE67C21A90A4200CAB37D /* Yello Lemon.otf in Resources */ = {isa = PBXBuildFile; fileRef = ED7FE67B21A90A4200CAB37D /* Yello Lemon.otf */; };
+		ED7FE67E21A90B5A00CAB37D /* DK Lemon Yellow Sun.otf in Resources */ = {isa = PBXBuildFile; fileRef = ED7FE67D21A90B5900CAB37D /* DK Lemon Yellow Sun.otf */; };
+		ED836061218DFBCC00856C84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED836060218DFBCC00856C84 /* AppDelegate.swift */; };
+		ED836066218DFBCC00856C84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED836064218DFBCC00856C84 /* Main.storyboard */; };
+		ED836068218DFBD100856C84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED836067218DFBD100856C84 /* Assets.xcassets */; };
+		ED836073218DFBD100856C84 /* SakaiTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED836072218DFBD100856C84 /* SakaiTVTests.swift */; };
+		ED83607E218DFBD100856C84 /* SakaiTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED83607D218DFBD100856C84 /* SakaiTVUITests.swift */; };
+		EDC2C3A521B999CB00712E1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC2C3A421B999CA00712E1D /* ViewController.swift */; };
+		EDC2C3A821B9AAF700712E1D /* lessonsPdfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC2C3A721B9AAF700712E1D /* lessonsPdfViewController.swift */; };
+		EDC2C3AA21B9AB7300712E1D /* lessonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC2C3A921B9AB7300712E1D /* lessonData.swift */; };
+		EDC2C3AC21B9B9F500712E1D /* lessons1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EDC2C3AB21B9B9F500712E1D /* lessons1.pdf */; };
+		EDC2C3AE21B9B9FC00712E1D /* lessons2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EDC2C3AD21B9B9FC00712E1D /* lessons2.pdf */; };
+		EDC2C3B021B9BA0200712E1D /* lessons3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EDC2C3AF21B9BA0200712E1D /* lessons3.pdf */; };
+		EDC2C3B221B9BA0A00712E1D /* lessons4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EDC2C3B121B9BA0A00712E1D /* lessons4.pdf */; };
+		EDC2C3B421B9BA1100712E1D /* Open-file-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EDC2C3B321B9BA1100712E1D /* Open-file-icon.png */; };
+		EDC81C6E21A9EC350056DFB8 /* YoutubeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC81C6D21A9EC350056DFB8 /* YoutubeData.swift */; };
+		EDC81C7021A9F2910056DFB8 /* YoutubeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC81C6F21A9F2910056DFB8 /* YoutubeCell.swift */; };
+		EDC81C7821AA6F6D0056DFB8 /* ResourceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC81C7721AA6F6D0056DFB8 /* ResourceTableViewCell.swift */; };
+		EDC81C7A21AA74690056DFB8 /* aaa.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EDC81C7921AA74680056DFB8 /* aaa.pdf */; };
+		EDD01565219E74AF006DFE6D /* ResourceData.json in Resources */ = {isa = PBXBuildFile; fileRef = EDD01564219E74AF006DFE6D /* ResourceData.json */; };
+		EDD01567219E8E6B006DFE6D /* ResourceViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD01566219E8E6B006DFE6D /* ResourceViewCell.swift */; };
+		EDD01569219E9352006DFE6D /* ResourceDa.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD01568219E9352006DFE6D /* ResourceDa.swift */; };
+		EDD0156B219E9DB4006DFE6D /* ResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD0156A219E9DB4006DFE6D /* ResourceViewController.swift */; };
+		EDD0156F21A0BCD6006DFE6D /* GradeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD0156E21A0BCD5006DFE6D /* GradeData.swift */; };
+		EDD0157121A1033D006DFE6D /* School.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EDD0157021A1033D006DFE6D /* School.jpeg */; };
+		EDD0157321A115EB006DFE6D /* gradient.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDD0157221A115EB006DFE6D /* gradient.jpg */; };
+		EDD0157921A12AD7006DFE6D /* MegaTron.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDD0157821A12AD7006DFE6D /* MegaTron.jpg */; };
+		EDD0157B21A12F26006DFE6D /* Facebook.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDD0157A21A12F26006DFE6D /* Facebook.jpg */; };
+		EDE5468B21A50ACD00842777 /* YouTubeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE5468A21A50ACD00842777 /* YouTubeController.swift */; };
+		EDF83C0121B9BDF400400808 /* lessonscell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF83C0021B9BDF400400808 /* lessonscell.swift */; };
+		EDF83C0421B9DF8F00400808 /* titlecell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF83C0321B9DF8F00400808 /* titlecell.swift */; };
+		EDF83C0621B9DFA900400808 /* detailcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF83C0521B9DFA900400808 /* detailcell.swift */; };
+		EDF83C0821B9E06B00400808 /* syllabus_for_564.json in Resources */ = {isa = PBXBuildFile; fileRef = EDF83C0721B9E06B00400808 /* syllabus_for_564.json */; };
+		EDF83C0A21B9E0A200400808 /* syllabusData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF83C0921B9E0A200400808 /* syllabusData.swift */; };
+		EDF83C0C21B9EA5600400808 /* SyllabusToolExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF83C0B21B9EA5600400808 /* SyllabusToolExtention.swift */; };
+		EDF83C0E21BA0A7300400808 /* announcement_for_564.json in Resources */ = {isa = PBXBuildFile; fileRef = EDF83C0D21BA0A7300400808 /* announcement_for_564.json */; };
+		EDF83C1021BA0B1800400808 /* announcementdata.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF83C0F21BA0B1800400808 /* announcementdata.swift */; };
+		EDF83C1221BA0B5A00400808 /* annoBodyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF83C1121BA0B5A00400808 /* annoBodyViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED83606F218DFBD100856C84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED836055218DFBCC00856C84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED83605C218DFBCC00856C84;
+			remoteInfo = SakaiTV;
+		};
+		ED83607A218DFBD100856C84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED836055218DFBCC00856C84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED83605C218DFBCC00856C84;
+			remoteInfo = SakaiTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E96AEF48968E3CF6357568C /* Pods-SakaiTVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SakaiTVUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SakaiTVUITests/Pods-SakaiTVUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B708DE02AE560E1FD890220 /* Pods-SakaiTVTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SakaiTVTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SakaiTVTests/Pods-SakaiTVTests.release.xcconfig"; sourceTree = "<group>"; };
+		3B495A3589CF6E3D7CC84FE6 /* Pods-SakaiTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SakaiTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-SakaiTV/Pods-SakaiTV.release.xcconfig"; sourceTree = "<group>"; };
+		46B3D89BF67427DEF27F7ED4 /* Pods-SakaiTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SakaiTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SakaiTV/Pods-SakaiTV.debug.xcconfig"; sourceTree = "<group>"; };
+		ADF099905F73FC94191AD2FB /* Pods-SakaiTVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SakaiTVTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SakaiTVTests/Pods-SakaiTVTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B41246838DFD34969D8DE56E /* Pods_SakaiTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SakaiTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C526198821BAB235005ABB8C /* ProfileData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileData.swift; sourceTree = "<group>"; };
+		C526198921BAB235005ABB8C /* ProfileUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileUtilities.swift; sourceTree = "<group>"; };
+		C526198A21BAB235005ABB8C /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		C58923B421C2E25C00475A5C /* Calendar */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Calendar; path = SakaiTV/Calendar; sourceTree = SOURCE_ROOT; };
+		C5D8F88D21C2E36C0052D1B1 /* CalendarData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarData.swift; sourceTree = "<group>"; };
+		C5D8F88F21C2E36E0052D1B1 /* CalendarUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarUtilities.swift; sourceTree = "<group>"; };
+		C660F5DD2C62CDA6E69C7F10 /* Pods_SakaiTVUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SakaiTVUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E59A85A546133D4DE7A10599 /* Pods-SakaiTVUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SakaiTVUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SakaiTVUITests/Pods-SakaiTVUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E5C2AD5121BA9C7C009E2480 /* newresourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newresourceViewController.swift; sourceTree = "<group>"; };
+		E5E0BA33218E3B4D0030A5C1 /* AllClassesDef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllClassesDef.swift; sourceTree = "<group>"; };
+		ED0AD61621A273080087B8A1 /* membershipCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = membershipCollectionViewCell.swift; sourceTree = "<group>"; };
+		ED0AD61821A27A870087B8A1 /* courseicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = courseicon.png; sourceTree = "<group>"; };
+		ED0AD61B21A27D3E0087B8A1 /* headercell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = headercell.swift; sourceTree = "<group>"; };
+		ED0AD61D21A27D590087B8A1 /* annocell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = annocell.swift; sourceTree = "<group>"; };
+		ED527D4421AE2EFB00BB5C39 /* 4. Project Ideas.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "4. Project Ideas.pdf"; sourceTree = "<group>"; };
+		ED527D4621AE2F0600BB5C39 /* 3. Class Handbook.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "3. Class Handbook.pdf"; sourceTree = "<group>"; };
+		ED527D4821AE32A700BB5C39 /* Showcase.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Showcase.pdf; sourceTree = "<group>"; };
+		ED527D4A21AE32AD00BB5C39 /* starwars bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "starwars bg.jpg"; sourceTree = "<group>"; };
+		ED5AC44321966AF600CB8FD8 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		ED5AC44521966D7B00CB8FD8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		ED5AC448219A087A00CB8FD8 /* GradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeView.swift; sourceTree = "<group>"; };
+		ED5AC44C219A092F00CB8FD8 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		ED5AC44E219A20C700CB8FD8 /* GradeTable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GradeTable.xib; sourceTree = "<group>"; };
+		ED5AC454219A820F00CB8FD8 /* ScoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreTableViewCell.swift; sourceTree = "<group>"; };
+		ED5AC455219A820F00CB8FD8 /* ScoreTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScoreTableViewCell.xib; sourceTree = "<group>"; };
+		ED5AC45C219B848000CB8FD8 /* ClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassView.swift; sourceTree = "<group>"; };
+		ED5AC45E219BA11600CB8FD8 /* DukePersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DukePersonTableViewCell.swift; sourceTree = "<group>"; };
+		ED5AC460219BA88C00CB8FD8 /* ClassData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassData.swift; sourceTree = "<group>"; };
+		ED5AC462219BDDAD00CB8FD8 /* funny.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = funny.gif; sourceTree = "<group>"; };
+		ED5AC467219D33F500CB8FD8 /* Assignment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Assignment.json; sourceTree = "<group>"; };
+		ED5AC469219D34C300CB8FD8 /* AssignmentViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentViewCell.swift; sourceTree = "<group>"; };
+		ED5AC46B219D3ADD00CB8FD8 /* AssignmentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentData.swift; sourceTree = "<group>"; };
+		ED7FE67121A901B900CAB37D /* Boulevard.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Boulevard.otf; sourceTree = "<group>"; };
+		ED7FE67321A901DA00CAB37D /* Anjellic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Anjellic.otf; sourceTree = "<group>"; };
+		ED7FE67521A901EE00CAB37D /* Hello Mozza.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hello Mozza.ttf"; sourceTree = "<group>"; };
+		ED7FE67721A901FA00CAB37D /* HARRYP__.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = HARRYP__.TTF; sourceTree = "<group>"; };
+		ED7FE67921A9022300CAB37D /* Guthen Bloots Personal Use.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Guthen Bloots Personal Use.ttf"; sourceTree = "<group>"; };
+		ED7FE67B21A90A4200CAB37D /* Yello Lemon.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yello Lemon.otf"; sourceTree = "<group>"; };
+		ED7FE67D21A90B5900CAB37D /* DK Lemon Yellow Sun.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DK Lemon Yellow Sun.otf"; sourceTree = "<group>"; };
+		ED83605D218DFBCC00856C84 /* SakaiTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SakaiTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED836060218DFBCC00856C84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED836065218DFBCC00856C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED836067218DFBD100856C84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED836069218DFBD100856C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED83606E218DFBD100856C84 /* SakaiTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SakaiTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED836072218DFBD100856C84 /* SakaiTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SakaiTVTests.swift; sourceTree = "<group>"; };
+		ED836074218DFBD100856C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED836079218DFBD100856C84 /* SakaiTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SakaiTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED83607D218DFBD100856C84 /* SakaiTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SakaiTVUITests.swift; sourceTree = "<group>"; };
+		ED83607F218DFBD100856C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDC2C3A421B999CA00712E1D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDC2C3A721B9AAF700712E1D /* lessonsPdfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lessonsPdfViewController.swift; sourceTree = "<group>"; };
+		EDC2C3A921B9AB7300712E1D /* lessonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lessonData.swift; sourceTree = "<group>"; };
+		EDC2C3AB21B9B9F500712E1D /* lessons1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = lessons1.pdf; sourceTree = "<group>"; };
+		EDC2C3AD21B9B9FC00712E1D /* lessons2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = lessons2.pdf; sourceTree = "<group>"; };
+		EDC2C3AF21B9BA0200712E1D /* lessons3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = lessons3.pdf; sourceTree = "<group>"; };
+		EDC2C3B121B9BA0A00712E1D /* lessons4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = lessons4.pdf; sourceTree = "<group>"; };
+		EDC2C3B321B9BA1100712E1D /* Open-file-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Open-file-icon.png"; sourceTree = "<group>"; };
+		EDC81C6D21A9EC350056DFB8 /* YoutubeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeData.swift; sourceTree = "<group>"; };
+		EDC81C6F21A9F2910056DFB8 /* YoutubeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeCell.swift; sourceTree = "<group>"; };
+		EDC81C7721AA6F6D0056DFB8 /* ResourceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceTableViewCell.swift; sourceTree = "<group>"; };
+		EDC81C7921AA74680056DFB8 /* aaa.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = aaa.pdf; sourceTree = "<group>"; };
+		EDD01564219E74AF006DFE6D /* ResourceData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ResourceData.json; sourceTree = "<group>"; };
+		EDD01566219E8E6B006DFE6D /* ResourceViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceViewCell.swift; sourceTree = "<group>"; };
+		EDD01568219E9352006DFE6D /* ResourceDa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceDa.swift; sourceTree = "<group>"; };
+		EDD0156A219E9DB4006DFE6D /* ResourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceViewController.swift; sourceTree = "<group>"; };
+		EDD0156E21A0BCD5006DFE6D /* GradeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeData.swift; sourceTree = "<group>"; };
+		EDD0157021A1033D006DFE6D /* School.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = School.jpeg; sourceTree = "<group>"; };
+		EDD0157221A115EB006DFE6D /* gradient.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gradient.jpg; sourceTree = "<group>"; };
+		EDD0157821A12AD7006DFE6D /* MegaTron.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MegaTron.jpg; sourceTree = "<group>"; };
+		EDD0157A21A12F26006DFE6D /* Facebook.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Facebook.jpg; sourceTree = "<group>"; };
+		EDE5468A21A50ACD00842777 /* YouTubeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeController.swift; sourceTree = "<group>"; };
+		EDF83C0021B9BDF400400808 /* lessonscell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lessonscell.swift; sourceTree = "<group>"; };
+		EDF83C0321B9DF8F00400808 /* titlecell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = titlecell.swift; sourceTree = "<group>"; };
+		EDF83C0521B9DFA900400808 /* detailcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailcell.swift; sourceTree = "<group>"; };
+		EDF83C0721B9E06B00400808 /* syllabus_for_564.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = syllabus_for_564.json; sourceTree = "<group>"; };
+		EDF83C0921B9E0A200400808 /* syllabusData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = syllabusData.swift; sourceTree = "<group>"; };
+		EDF83C0B21B9EA5600400808 /* SyllabusToolExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyllabusToolExtention.swift; sourceTree = "<group>"; };
+		EDF83C0D21BA0A7300400808 /* announcement_for_564.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = announcement_for_564.json; sourceTree = "<group>"; };
+		EDF83C0F21BA0B1800400808 /* announcementdata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = announcementdata.swift; sourceTree = "<group>"; };
+		EDF83C1121BA0B5A00400808 /* annoBodyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = annoBodyViewController.swift; sourceTree = "<group>"; };
+		FB4427EEA6BED40374D378FC /* Pods_SakaiTVTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SakaiTVTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED83605A218DFBCC00856C84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2D94C3A77E014D8F68D960 /* Pods_SakaiTV.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED83606B218DFBD100856C84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D26CAA9162B2ECE1ACED9F8 /* Pods_SakaiTVTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED836076218DFBD100856C84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E0CDD4C23ED8567960E26B9 /* Pods_SakaiTVUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32858673300ADB971E13B651 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B41246838DFD34969D8DE56E /* Pods_SakaiTV.framework */,
+				FB4427EEA6BED40374D378FC /* Pods_SakaiTVTests.framework */,
+				C660F5DD2C62CDA6E69C7F10 /* Pods_SakaiTVUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8059F5D89DC50C1E166702A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46B3D89BF67427DEF27F7ED4 /* Pods-SakaiTV.debug.xcconfig */,
+				3B495A3589CF6E3D7CC84FE6 /* Pods-SakaiTV.release.xcconfig */,
+				ADF099905F73FC94191AD2FB /* Pods-SakaiTVTests.debug.xcconfig */,
+				2B708DE02AE560E1FD890220 /* Pods-SakaiTVTests.release.xcconfig */,
+				1E96AEF48968E3CF6357568C /* Pods-SakaiTVUITests.debug.xcconfig */,
+				E59A85A546133D4DE7A10599 /* Pods-SakaiTVUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C526198721BAB1F6005ABB8C /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				C526198821BAB235005ABB8C /* ProfileData.swift */,
+				C526198A21BAB235005ABB8C /* ProfileTableViewCell.swift */,
+				C526198921BAB235005ABB8C /* ProfileUtilities.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		ED0AD61521A272AA0087B8A1 /* Membership */ = {
+			isa = PBXGroup;
+			children = (
+				ED0AD61621A273080087B8A1 /* membershipCollectionViewCell.swift */,
+			);
+			path = Membership;
+			sourceTree = "<group>";
+		};
+		ED0AD61A21A27B600087B8A1 /* Annoucement */ = {
+			isa = PBXGroup;
+			children = (
+				ED0AD61B21A27D3E0087B8A1 /* headercell.swift */,
+				ED0AD61D21A27D590087B8A1 /* annocell.swift */,
+				EDF83C0D21BA0A7300400808 /* announcement_for_564.json */,
+				EDF83C0F21BA0B1800400808 /* announcementdata.swift */,
+				EDF83C1121BA0B5A00400808 /* annoBodyViewController.swift */,
+			);
+			path = Annoucement;
+			sourceTree = "<group>";
+		};
+		ED5AC44021963AEB00CB8FD8 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				ED5AC44321966AF600CB8FD8 /* MasterViewController.swift */,
+				ED5AC44521966D7B00CB8FD8 /* DetailViewController.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		ED5AC447219A078700CB8FD8 /* Grade */ = {
+			isa = PBXGroup;
+			children = (
+				ED5AC448219A087A00CB8FD8 /* GradeView.swift */,
+				ED5AC44C219A092F00CB8FD8 /* Utilities.swift */,
+				ED5AC44E219A20C700CB8FD8 /* GradeTable.xib */,
+				ED5AC454219A820F00CB8FD8 /* ScoreTableViewCell.swift */,
+				ED5AC455219A820F00CB8FD8 /* ScoreTableViewCell.xib */,
+				EDD0156E21A0BCD5006DFE6D /* GradeData.swift */,
+			);
+			path = Grade;
+			sourceTree = "<group>";
+		};
+		ED5AC45B219B845B00CB8FD8 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				ED5AC45C219B848000CB8FD8 /* ClassView.swift */,
+				ED5AC45E219BA11600CB8FD8 /* DukePersonTableViewCell.swift */,
+				ED5AC460219BA88C00CB8FD8 /* ClassData.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		ED5AC464219D206800CB8FD8 /* Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				ED5AC467219D33F500CB8FD8 /* Assignment.json */,
+				ED5AC469219D34C300CB8FD8 /* AssignmentViewCell.swift */,
+				ED5AC46B219D3ADD00CB8FD8 /* AssignmentData.swift */,
+			);
+			path = Assignment;
+			sourceTree = "<group>";
+		};
+		ED7FE67021A9017300CAB37D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				ED7FE67D21A90B5900CAB37D /* DK Lemon Yellow Sun.otf */,
+				ED7FE67B21A90A4200CAB37D /* Yello Lemon.otf */,
+				ED7FE67721A901FA00CAB37D /* HARRYP__.TTF */,
+				ED7FE67921A9022300CAB37D /* Guthen Bloots Personal Use.ttf */,
+				ED7FE67521A901EE00CAB37D /* Hello Mozza.ttf */,
+				ED7FE67321A901DA00CAB37D /* Anjellic.otf */,
+				ED7FE67121A901B900CAB37D /* Boulevard.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		ED836054218DFBCC00856C84 = {
+			isa = PBXGroup;
+			children = (
+				ED83605F218DFBCC00856C84 /* SakaiTV */,
+				ED836071218DFBD100856C84 /* SakaiTVTests */,
+				ED83607C218DFBD100856C84 /* SakaiTVUITests */,
+				ED83605E218DFBCC00856C84 /* Products */,
+				8059F5D89DC50C1E166702A0 /* Pods */,
+				32858673300ADB971E13B651 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED83605E218DFBCC00856C84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED83605D218DFBCC00856C84 /* SakaiTV.app */,
+				ED83606E218DFBD100856C84 /* SakaiTVTests.xctest */,
+				ED836079218DFBD100856C84 /* SakaiTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED83605F218DFBCC00856C84 /* SakaiTV */ = {
+			isa = PBXGroup;
+			children = (
+				C5D8F88D21C2E36C0052D1B1 /* CalendarData.swift */,
+				C5D8F88F21C2E36E0052D1B1 /* CalendarUtilities.swift */,
+				C58923B421C2E25C00475A5C /* Calendar */,
+				C526198721BAB1F6005ABB8C /* Profile */,
+				EDF83C0221B9DF4800400808 /* Syllabus */,
+				EDC2C3A621B9A93A00712E1D /* Lesson */,
+				EDC2C3A421B999CA00712E1D /* ViewController.swift */,
+				ED527D4621AE2F0600BB5C39 /* 3. Class Handbook.pdf */,
+				ED527D4821AE32A700BB5C39 /* Showcase.pdf */,
+				ED527D4421AE2EFB00BB5C39 /* 4. Project Ideas.pdf */,
+				ED527D4A21AE32AD00BB5C39 /* starwars bg.jpg */,
+				EDC81C7921AA74680056DFB8 /* aaa.pdf */,
+				ED7FE67021A9017300CAB37D /* Fonts */,
+				EDE5468721A4FD4D00842777 /* YouTube */,
+				ED0AD61A21A27B600087B8A1 /* Annoucement */,
+				ED0AD61821A27A870087B8A1 /* courseicon.png */,
+				ED0AD61521A272AA0087B8A1 /* Membership */,
+				EDD0157A21A12F26006DFE6D /* Facebook.jpg */,
+				EDD0157821A12AD7006DFE6D /* MegaTron.jpg */,
+				EDD01563219E73DB006DFE6D /* Resource */,
+				ED5AC464219D206800CB8FD8 /* Assignment */,
+				ED5AC462219BDDAD00CB8FD8 /* funny.gif */,
+				ED5AC45B219B845B00CB8FD8 /* Class */,
+				ED5AC447219A078700CB8FD8 /* Grade */,
+				ED5AC44021963AEB00CB8FD8 /* MainView */,
+				ED836060218DFBCC00856C84 /* AppDelegate.swift */,
+				E5E0BA33218E3B4D0030A5C1 /* AllClassesDef.swift */,
+				ED836064218DFBCC00856C84 /* Main.storyboard */,
+				EDD0157221A115EB006DFE6D /* gradient.jpg */,
+				ED836067218DFBD100856C84 /* Assets.xcassets */,
+				EDD0157021A1033D006DFE6D /* School.jpeg */,
+				ED836069218DFBD100856C84 /* Info.plist */,
+			);
+			path = SakaiTV;
+			sourceTree = "<group>";
+		};
+		ED836071218DFBD100856C84 /* SakaiTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED836072218DFBD100856C84 /* SakaiTVTests.swift */,
+				ED836074218DFBD100856C84 /* Info.plist */,
+			);
+			path = SakaiTVTests;
+			sourceTree = "<group>";
+		};
+		ED83607C218DFBD100856C84 /* SakaiTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED83607D218DFBD100856C84 /* SakaiTVUITests.swift */,
+				ED83607F218DFBD100856C84 /* Info.plist */,
+			);
+			path = SakaiTVUITests;
+			sourceTree = "<group>";
+		};
+		EDC2C3A621B9A93A00712E1D /* Lesson */ = {
+			isa = PBXGroup;
+			children = (
+				EDC2C3B321B9BA1100712E1D /* Open-file-icon.png */,
+				EDC2C3B121B9BA0A00712E1D /* lessons4.pdf */,
+				EDC2C3AF21B9BA0200712E1D /* lessons3.pdf */,
+				EDC2C3AD21B9B9FC00712E1D /* lessons2.pdf */,
+				EDC2C3AB21B9B9F500712E1D /* lessons1.pdf */,
+				EDC2C3A721B9AAF700712E1D /* lessonsPdfViewController.swift */,
+				EDC2C3A921B9AB7300712E1D /* lessonData.swift */,
+				EDF83C0021B9BDF400400808 /* lessonscell.swift */,
+			);
+			path = Lesson;
+			sourceTree = "<group>";
+		};
+		EDD01563219E73DB006DFE6D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EDD01564219E74AF006DFE6D /* ResourceData.json */,
+				EDD01566219E8E6B006DFE6D /* ResourceViewCell.swift */,
+				EDD01568219E9352006DFE6D /* ResourceDa.swift */,
+				EDD0156A219E9DB4006DFE6D /* ResourceViewController.swift */,
+				E5C2AD5121BA9C7C009E2480 /* newresourceViewController.swift */,
+				EDC81C7721AA6F6D0056DFB8 /* ResourceTableViewCell.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		EDE5468721A4FD4D00842777 /* YouTube */ = {
+			isa = PBXGroup;
+			children = (
+				EDE5468A21A50ACD00842777 /* YouTubeController.swift */,
+				EDC81C6D21A9EC350056DFB8 /* YoutubeData.swift */,
+				EDC81C6F21A9F2910056DFB8 /* YoutubeCell.swift */,
+			);
+			path = YouTube;
+			sourceTree = "<group>";
+		};
+		EDF83C0221B9DF4800400808 /* Syllabus */ = {
+			isa = PBXGroup;
+			children = (
+				EDF83C0321B9DF8F00400808 /* titlecell.swift */,
+				EDF83C0521B9DFA900400808 /* detailcell.swift */,
+				EDF83C0721B9E06B00400808 /* syllabus_for_564.json */,
+				EDF83C0921B9E0A200400808 /* syllabusData.swift */,
+				EDF83C0B21B9EA5600400808 /* SyllabusToolExtention.swift */,
+			);
+			path = Syllabus;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED83605C218DFBCC00856C84 /* SakaiTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED836082218DFBD100856C84 /* Build configuration list for PBXNativeTarget "SakaiTV" */;
+			buildPhases = (
+				B01BD980FC717A5CE11EE1FE /* [CP] Check Pods Manifest.lock */,
+				ED836059218DFBCC00856C84 /* Sources */,
+				ED83605A218DFBCC00856C84 /* Frameworks */,
+				ED83605B218DFBCC00856C84 /* Resources */,
+				524EDE31D7DF5A28F5E8C0F7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SakaiTV;
+			productName = SakaiTV;
+			productReference = ED83605D218DFBCC00856C84 /* SakaiTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED83606D218DFBD100856C84 /* SakaiTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED836085218DFBD100856C84 /* Build configuration list for PBXNativeTarget "SakaiTVTests" */;
+			buildPhases = (
+				5DA09261C5B6FFB8EB346B5C /* [CP] Check Pods Manifest.lock */,
+				ED83606A218DFBD100856C84 /* Sources */,
+				ED83606B218DFBD100856C84 /* Frameworks */,
+				ED83606C218DFBD100856C84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED836070218DFBD100856C84 /* PBXTargetDependency */,
+			);
+			name = SakaiTVTests;
+			productName = SakaiTVTests;
+			productReference = ED83606E218DFBD100856C84 /* SakaiTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED836078218DFBD100856C84 /* SakaiTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED836088218DFBD100856C84 /* Build configuration list for PBXNativeTarget "SakaiTVUITests" */;
+			buildPhases = (
+				D7930C932670E112741A5F30 /* [CP] Check Pods Manifest.lock */,
+				ED836075218DFBD100856C84 /* Sources */,
+				ED836076218DFBD100856C84 /* Frameworks */,
+				ED836077218DFBD100856C84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED83607B218DFBD100856C84 /* PBXTargetDependency */,
+			);
+			name = SakaiTVUITests;
+			productName = SakaiTVUITests;
+			productReference = ED836079218DFBD100856C84 /* SakaiTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED836055218DFBCC00856C84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = yuyuanyuan;
+				TargetAttributes = {
+					ED83605C218DFBCC00856C84 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					ED83606D218DFBD100856C84 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = ED83605C218DFBCC00856C84;
+					};
+					ED836078218DFBD100856C84 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = ED83605C218DFBCC00856C84;
+					};
+				};
+			};
+			buildConfigurationList = ED836058218DFBCC00856C84 /* Build configuration list for PBXProject "SakaiTV" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED836054218DFBCC00856C84;
+			productRefGroup = ED83605E218DFBCC00856C84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED83605C218DFBCC00856C84 /* SakaiTV */,
+				ED83606D218DFBD100856C84 /* SakaiTVTests */,
+				ED836078218DFBD100856C84 /* SakaiTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED83605B218DFBCC00856C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD0157321A115EB006DFE6D /* gradient.jpg in Resources */,
+				ED527D4521AE2EFB00BB5C39 /* 4. Project Ideas.pdf in Resources */,
+				C58923B521C2E25C00475A5C /* Calendar in Resources */,
+				EDC2C3B021B9BA0200712E1D /* lessons3.pdf in Resources */,
+				ED7FE67621A901EF00CAB37D /* Hello Mozza.ttf in Resources */,
+				EDC2C3AC21B9B9F500712E1D /* lessons1.pdf in Resources */,
+				ED7FE67E21A90B5A00CAB37D /* DK Lemon Yellow Sun.otf in Resources */,
+				ED5AC468219D33F500CB8FD8 /* Assignment.json in Resources */,
+				ED836068218DFBD100856C84 /* Assets.xcassets in Resources */,
+				ED527D4B21AE32AD00BB5C39 /* starwars bg.jpg in Resources */,
+				EDD0157921A12AD7006DFE6D /* MegaTron.jpg in Resources */,
+				ED836066218DFBCC00856C84 /* Main.storyboard in Resources */,
+				EDD0157B21A12F26006DFE6D /* Facebook.jpg in Resources */,
+				ED7FE67A21A9022300CAB37D /* Guthen Bloots Personal Use.ttf in Resources */,
+				ED5AC463219BDDAE00CB8FD8 /* funny.gif in Resources */,
+				EDF83C0E21BA0A7300400808 /* announcement_for_564.json in Resources */,
+				ED0AD61921A27A870087B8A1 /* courseicon.png in Resources */,
+				ED7FE67C21A90A4200CAB37D /* Yello Lemon.otf in Resources */,
+				EDD01565219E74AF006DFE6D /* ResourceData.json in Resources */,
+				EDC2C3B421B9BA1100712E1D /* Open-file-icon.png in Resources */,
+				ED527D4721AE2F0600BB5C39 /* 3. Class Handbook.pdf in Resources */,
+				EDC2C3AE21B9B9FC00712E1D /* lessons2.pdf in Resources */,
+				EDF83C0821B9E06B00400808 /* syllabus_for_564.json in Resources */,
+				EDC2C3B221B9BA0A00712E1D /* lessons4.pdf in Resources */,
+				ED5AC457219A820F00CB8FD8 /* ScoreTableViewCell.xib in Resources */,
+				ED527D4921AE32A700BB5C39 /* Showcase.pdf in Resources */,
+				ED5AC44F219A20C700CB8FD8 /* GradeTable.xib in Resources */,
+				ED7FE67821A901FA00CAB37D /* HARRYP__.TTF in Resources */,
+				ED7FE67221A901BA00CAB37D /* Boulevard.otf in Resources */,
+				EDD0157121A1033D006DFE6D /* School.jpeg in Resources */,
+				EDC81C7A21AA74690056DFB8 /* aaa.pdf in Resources */,
+				ED7FE67421A901DA00CAB37D /* Anjellic.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED83606C218DFBD100856C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED836077218DFBD100856C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		524EDE31D7DF5A28F5E8C0F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SakaiTV/Pods-SakaiTV-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/XCDYouTubeKit/XCDYouTubeKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCDYouTubeKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SakaiTV/Pods-SakaiTV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DA09261C5B6FFB8EB346B5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SakaiTVTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B01BD980FC717A5CE11EE1FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SakaiTV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7930C932670E112741A5F30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SakaiTVUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED836059218DFBCC00856C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC2C3A521B999CB00712E1D /* ViewController.swift in Sources */,
+				ED5AC44621966D7B00CB8FD8 /* DetailViewController.swift in Sources */,
+				EDC81C7021A9F2910056DFB8 /* YoutubeCell.swift in Sources */,
+				ED5AC44421966AF600CB8FD8 /* MasterViewController.swift in Sources */,
+				EDF83C0C21B9EA5600400808 /* SyllabusToolExtention.swift in Sources */,
+				EDF83C0A21B9E0A200400808 /* syllabusData.swift in Sources */,
+				EDD01569219E9352006DFE6D /* ResourceDa.swift in Sources */,
+				EDD0156F21A0BCD6006DFE6D /* GradeData.swift in Sources */,
+				ED5AC449219A087A00CB8FD8 /* GradeView.swift in Sources */,
+				ED5AC461219BA88C00CB8FD8 /* ClassData.swift in Sources */,
+				ED0AD61C21A27D3E0087B8A1 /* headercell.swift in Sources */,
+				C526198D21BAB235005ABB8C /* ProfileTableViewCell.swift in Sources */,
+				ED5AC44D219A092F00CB8FD8 /* Utilities.swift in Sources */,
+				EDC81C7821AA6F6D0056DFB8 /* ResourceTableViewCell.swift in Sources */,
+				ED5AC46C219D3ADD00CB8FD8 /* AssignmentData.swift in Sources */,
+				ED5AC46A219D34C300CB8FD8 /* AssignmentViewCell.swift in Sources */,
+				EDC2C3AA21B9AB7300712E1D /* lessonData.swift in Sources */,
+				EDD0156B219E9DB4006DFE6D /* ResourceViewController.swift in Sources */,
+				EDC81C6E21A9EC350056DFB8 /* YoutubeData.swift in Sources */,
+				C526198C21BAB235005ABB8C /* ProfileUtilities.swift in Sources */,
+				EDE5468B21A50ACD00842777 /* YouTubeController.swift in Sources */,
+				E5C2AD5221BA9C7C009E2480 /* newresourceViewController.swift in Sources */,
+				ED5AC45F219BA11600CB8FD8 /* DukePersonTableViewCell.swift in Sources */,
+				EDC2C3A821B9AAF700712E1D /* lessonsPdfViewController.swift in Sources */,
+				EDF83C0621B9DFA900400808 /* detailcell.swift in Sources */,
+				C526198B21BAB235005ABB8C /* ProfileData.swift in Sources */,
+				EDF83C1021BA0B1800400808 /* announcementdata.swift in Sources */,
+				ED5AC45D219B848000CB8FD8 /* ClassView.swift in Sources */,
+				ED0AD61E21A27D590087B8A1 /* annocell.swift in Sources */,
+				ED0AD61721A273080087B8A1 /* membershipCollectionViewCell.swift in Sources */,
+				E5E0BA34218E3B4D0030A5C1 /* AllClassesDef.swift in Sources */,
+				C5D8F89021C2E36E0052D1B1 /* CalendarUtilities.swift in Sources */,
+				ED5AC456219A820F00CB8FD8 /* ScoreTableViewCell.swift in Sources */,
+				EDF83C0421B9DF8F00400808 /* titlecell.swift in Sources */,
+				EDF83C0121B9BDF400400808 /* lessonscell.swift in Sources */,
+				EDF83C1221BA0B5A00400808 /* annoBodyViewController.swift in Sources */,
+				C5D8F88E21C2E36C0052D1B1 /* CalendarData.swift in Sources */,
+				EDD01567219E8E6B006DFE6D /* ResourceViewCell.swift in Sources */,
+				ED836061218DFBCC00856C84 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED83606A218DFBD100856C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED836073218DFBD100856C84 /* SakaiTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED836075218DFBD100856C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED83607E218DFBD100856C84 /* SakaiTVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED836070218DFBD100856C84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED83605C218DFBCC00856C84 /* SakaiTV */;
+			targetProxy = ED83606F218DFBD100856C84 /* PBXContainerItemProxy */;
+		};
+		ED83607B218DFBD100856C84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED83605C218DFBCC00856C84 /* SakaiTV */;
+			targetProxy = ED83607A218DFBD100856C84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED836064218DFBCC00856C84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED836065218DFBCC00856C84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED836080218DFBD100856C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Debug;
+		};
+		ED836081218DFBD100856C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED836083218DFBD100856C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46B3D89BF67427DEF27F7ED4 /* Pods-SakaiTV.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6J58C8CJT;
+				INFOPLIST_FILE = SakaiTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = team.SakaiTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		ED836084218DFBD100856C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B495A3589CF6E3D7CC84FE6 /* Pods-SakaiTV.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6J58C8CJT;
+				INFOPLIST_FILE = SakaiTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = team.SakaiTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		ED836086218DFBD100856C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADF099905F73FC94191AD2FB /* Pods-SakaiTVTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SakaiTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = team.SakaiTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SakaiTV.app/SakaiTV";
+			};
+			name = Debug;
+		};
+		ED836087218DFBD100856C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B708DE02AE560E1FD890220 /* Pods-SakaiTVTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SakaiTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = team.SakaiTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SakaiTV.app/SakaiTV";
+			};
+			name = Release;
+		};
+		ED836089218DFBD100856C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E96AEF48968E3CF6357568C /* Pods-SakaiTVUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SakaiTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = team.SakaiTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = SakaiTV;
+			};
+			name = Debug;
+		};
+		ED83608A218DFBD100856C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E59A85A546133D4DE7A10599 /* Pods-SakaiTVUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SakaiTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = team.SakaiTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = SakaiTV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED836058218DFBCC00856C84 /* Build configuration list for PBXProject "SakaiTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED836080218DFBD100856C84 /* Debug */,
+				ED836081218DFBD100856C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED836082218DFBD100856C84 /* Build configuration list for PBXNativeTarget "SakaiTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED836083218DFBD100856C84 /* Debug */,
+				ED836084218DFBD100856C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED836085218DFBD100856C84 /* Build configuration list for PBXNativeTarget "SakaiTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED836086218DFBD100856C84 /* Debug */,
+				ED836087218DFBD100856C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED836088218DFBD100856C84 /* Build configuration list for PBXNativeTarget "SakaiTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED836089218DFBD100856C84 /* Debug */,
+				ED83608A218DFBD100856C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED836055218DFBCC00856C84 /* Project object */;
+}

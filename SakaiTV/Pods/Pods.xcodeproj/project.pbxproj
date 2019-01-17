@@ -1,0 +1,1047 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08CF64ED80C5D392C7155D4FBD079459 /* XCDYouTubeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC8A68E2C7A0DF291CF5128971D6577 /* XCDYouTubeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		145A67CCED12A9002321670D7580AAD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEC7C7AC55997F88BE36DDCE383FDCD /* Foundation.framework */; };
+		1F389E19C57124A759B46197DCA484B8 /* XCDYouTubeVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = 656DA582CFA1BA3C7F220A78462FE6B6 /* XCDYouTubeVideo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		234A185229CB795D7387A7AE60A6AA90 /* XCDYouTubePlayerScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F4B81A68847EE41F427C082CA53089 /* XCDYouTubePlayerScript.m */; };
+		27F6DE3978C713B6C8729D116F615E55 /* XCDYouTubeVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 508E00B8446CEA849010ED43E7E324D1 /* XCDYouTubeVideo.m */; };
+		36E9450E010F607C86ADC7564CEA2151 /* XCDYouTubeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FF1FF830EE9A11402E4A6862E03F8D /* XCDYouTubeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38B9636FC5FEE024C6F06308C640F6F9 /* XCDYouTubeClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 34D43E55CCF386E37DEC61B33ECF5D66 /* XCDYouTubeClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43262042940E0F1F34A55238F9EB4A84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEC7C7AC55997F88BE36DDCE383FDCD /* Foundation.framework */; };
+		495F83F20A843A57ACBDC3F5867282D4 /* XCDYouTubeVideoOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A6D5CA41F7FC8A5E855BF6F70D8C09 /* XCDYouTubeVideoOperation.m */; };
+		546BD8E642F62E73C3B083840A56F3FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEC7C7AC55997F88BE36DDCE383FDCD /* Foundation.framework */; };
+		63B051251E9777C36B67CE2C7DE9251D /* XCDYouTubeVideo+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 87ADCF2CF784FAB2CCCCEE2A73F22A11 /* XCDYouTubeVideo+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6CD482B04E58F86FE5E6077CC2848107 /* XCDYouTubeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1661EA88F223715FA4CD3D60FCC5DAE6 /* XCDYouTubeKit-dummy.m */; };
+		6E17153C3D1D67D756AB7D3FDF041892 /* Pods-SakaiTVTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94133EBB6FEEC0E7E3E329CD7790AD6B /* Pods-SakaiTVTests-dummy.m */; };
+		7EE9E555DC818FCA4A423B2101C9D201 /* XCDYouTubeOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 631DA058ABFE9A66256F6F285BEC52D1 /* XCDYouTubeOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FF495E22ACB2DB3DD9CAEECFF4A056D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEC7C7AC55997F88BE36DDCE383FDCD /* Foundation.framework */; };
+		8107FF075CBC98E80B5B129A09CA8EFA /* Pods-SakaiTV-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE108A9702B4670C12F155368EE9E02 /* Pods-SakaiTV-dummy.m */; };
+		960688FC123A7AB6DCA6056CCBC23E89 /* XCDYouTubeVideoWebpage.h in Headers */ = {isa = PBXBuildFile; fileRef = 098B462D3902F9A97BFE6A8CC5A85A75 /* XCDYouTubeVideoWebpage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		99CCCAB90EC5CED711AD9FD7216C2DAF /* XCDYouTubeDashManifestXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 957D7585FB8BA556DD781FAD21B8ED55 /* XCDYouTubeDashManifestXML.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9C38906F5203F35CB403E3B3F8DA00CE /* XCDYouTubePlayerScript.h in Headers */ = {isa = PBXBuildFile; fileRef = B9E0BEC5421F2C7CB9D70413D24FF54A /* XCDYouTubePlayerScript.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9DCDDB76A7B2E05B7CD6E5818CC9D72A /* XCDYouTubeVideoWebpage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC4A3E86553390BF76AFE5FEE329488 /* XCDYouTubeVideoWebpage.m */; };
+		9E8D540F156C6638BEBB25179E186DB9 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E57175F104BBEA962D61FB17A972B346 /* JavaScriptCore.framework */; };
+		A483662D01FD93C643197BAFE8D4F4D7 /* XCDYouTubeLogger+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = BE8B5913BD1DA43214B120BEE9C3F465 /* XCDYouTubeLogger+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AB35B8676055E031D93ED242AD4CE189 /* XCDYouTubeError.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BCF443E8108886E80B76E05C3AA06B1 /* XCDYouTubeError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2B9B7EB9CDE0543D96826C9302B6EA9 /* XCDYouTubeDashManifestXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E9E0A6261B6062F073AA0C1B956680 /* XCDYouTubeDashManifestXML.m */; };
+		BF60F804024B2E1451C0B7BA62F173CC /* XCDYouTubeLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A5F8820D0662C236DC7F9E99AFE142 /* XCDYouTubeLogger.m */; };
+		C4920AD09BD415E70DF3382765D736C7 /* XCDYouTubeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3ED91A862446D801C2C6F763A799C1 /* XCDYouTubeClient.m */; };
+		C934153C13949B62E8BBF0F3DC173566 /* Pods-SakaiTVTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08083E15CB6221B05743840F40CAFD2E /* Pods-SakaiTVTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC00EF5EBA4186BD845A0A7452F8A74B /* Pods-SakaiTVUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A76020D4B78BBD39C7EC5093184882 /* Pods-SakaiTVUITests-dummy.m */; };
+		D8C67B5012C6F676E630A8B868A95F7C /* XCDYouTubeLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = BCFF7C45AAF4932F81221D64BE097FA5 /* XCDYouTubeLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9B67868EBA3CD7B918ED994441B696F /* Pods-SakaiTV-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 774DE6BA00ADAE640B5EC8AF0394C86F /* Pods-SakaiTV-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2FAB70344B4256445DEA72AA660D8B6 /* Pods-SakaiTVUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67298B63F25B092A74F88E236C562A2D /* Pods-SakaiTVUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7B66066C4C218D462CAE8EFC5721767 /* XCDYouTubeVideoOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A53D3249BAA98434A36A6A1D880876D0 /* XCDYouTubeVideoOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		234B8A78ECF79988CEC1D71F0839D0FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3273F9931D294BA3D97D47C90C41622C;
+			remoteInfo = XCDYouTubeKit;
+		};
+		8F9C4F89B1D46CDE4CC335F2D9218D3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDCCDA723BB99A851A7363433F784C47;
+			remoteInfo = "Pods-SakaiTV";
+		};
+		B90C8F1E899E83171408B375B925BFCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDCCDA723BB99A851A7363433F784C47;
+			remoteInfo = "Pods-SakaiTV";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F5E92AF028F71664BB5487234C4B50 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08083E15CB6221B05743840F40CAFD2E /* Pods-SakaiTVTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SakaiTVTests-umbrella.h"; sourceTree = "<group>"; };
+		08F196AD950092375B3956B5806E3667 /* Pods-SakaiTVTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SakaiTVTests-resources.sh"; sourceTree = "<group>"; };
+		096CD9FC4D378110A5FEE2AB182E6B63 /* Pods-SakaiTV-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SakaiTV-frameworks.sh"; sourceTree = "<group>"; };
+		098B462D3902F9A97BFE6A8CC5A85A75 /* XCDYouTubeVideoWebpage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeVideoWebpage.h; path = XCDYouTubeKit/XCDYouTubeVideoWebpage.h; sourceTree = "<group>"; };
+		0AC4A3E86553390BF76AFE5FEE329488 /* XCDYouTubeVideoWebpage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeVideoWebpage.m; path = XCDYouTubeKit/XCDYouTubeVideoWebpage.m; sourceTree = "<group>"; };
+		10BB172A874CB60354359D34CAB79D23 /* Pods-SakaiTVUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SakaiTVUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		15A6D5CA41F7FC8A5E855BF6F70D8C09 /* XCDYouTubeVideoOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeVideoOperation.m; path = XCDYouTubeKit/XCDYouTubeVideoOperation.m; sourceTree = "<group>"; };
+		1661EA88F223715FA4CD3D60FCC5DAE6 /* XCDYouTubeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XCDYouTubeKit-dummy.m"; sourceTree = "<group>"; };
+		19FED0A98D88C4DEF49995BB24A94FCC /* Pods_SakaiTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SakaiTV.framework; path = "Pods-SakaiTV.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		226F52D1994C5B1D223B2EF3ED8D1684 /* Pods_SakaiTVTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SakaiTVTests.framework; path = "Pods-SakaiTVTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F4941B556E1126B7BD2B16BF7508DEE /* Pods-SakaiTVUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SakaiTVUITests.release.xcconfig"; sourceTree = "<group>"; };
+		34D43E55CCF386E37DEC61B33ECF5D66 /* XCDYouTubeClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeClient.h; path = XCDYouTubeKit/XCDYouTubeClient.h; sourceTree = "<group>"; };
+		3564AC4C158B2D66D809250D0BA5EF1A /* Pods-SakaiTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SakaiTV.debug.xcconfig"; sourceTree = "<group>"; };
+		3CC8A68E2C7A0DF291CF5128971D6577 /* XCDYouTubeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCDYouTubeKit-umbrella.h"; sourceTree = "<group>"; };
+		3E8A8ADD3103CC27F9093BF2D8926E9A /* Pods-SakaiTVUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SakaiTVUITests-frameworks.sh"; sourceTree = "<group>"; };
+		41F9A81265131108ACC9AF9A41E182D3 /* Pods-SakaiTVTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SakaiTVTests.modulemap"; sourceTree = "<group>"; };
+		43A5F8820D0662C236DC7F9E99AFE142 /* XCDYouTubeLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeLogger.m; path = XCDYouTubeKit/XCDYouTubeLogger.m; sourceTree = "<group>"; };
+		43F4B81A68847EE41F427C082CA53089 /* XCDYouTubePlayerScript.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubePlayerScript.m; path = XCDYouTubeKit/XCDYouTubePlayerScript.m; sourceTree = "<group>"; };
+		44646E27CD9F869F5CBA3E01083EF0D2 /* Pods-SakaiTV-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SakaiTV-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4FEC7C7AC55997F88BE36DDCE383FDCD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		508E00B8446CEA849010ED43E7E324D1 /* XCDYouTubeVideo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeVideo.m; path = XCDYouTubeKit/XCDYouTubeVideo.m; sourceTree = "<group>"; };
+		52088AC8B85541B107B0B6747A64DDCB /* Pods-SakaiTVTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SakaiTVTests.release.xcconfig"; sourceTree = "<group>"; };
+		56E3584336EAED6795436E3D2012A8BE /* XCDYouTubeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XCDYouTubeKit.modulemap; sourceTree = "<group>"; };
+		5C19D54AD606DAF5EBC6456C4335C3A9 /* Pods-SakaiTVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SakaiTVUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		631DA058ABFE9A66256F6F285BEC52D1 /* XCDYouTubeOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeOperation.h; path = XCDYouTubeKit/XCDYouTubeOperation.h; sourceTree = "<group>"; };
+		6397FDAC3949282FFD409D2ABB8DED2A /* Pods-SakaiTVTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SakaiTVTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		64E9E0A6261B6062F073AA0C1B956680 /* XCDYouTubeDashManifestXML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeDashManifestXML.m; path = XCDYouTubeKit/XCDYouTubeDashManifestXML.m; sourceTree = "<group>"; };
+		656DA582CFA1BA3C7F220A78462FE6B6 /* XCDYouTubeVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeVideo.h; path = XCDYouTubeKit/XCDYouTubeVideo.h; sourceTree = "<group>"; };
+		67298B63F25B092A74F88E236C562A2D /* Pods-SakaiTVUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SakaiTVUITests-umbrella.h"; sourceTree = "<group>"; };
+		73FF1FF830EE9A11402E4A6862E03F8D /* XCDYouTubeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeKit.h; path = XCDYouTubeKit/XCDYouTubeKit.h; sourceTree = "<group>"; };
+		774DE6BA00ADAE640B5EC8AF0394C86F /* Pods-SakaiTV-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SakaiTV-umbrella.h"; sourceTree = "<group>"; };
+		7C2CDAF93C1128BA45D626C67F4D0D9B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E0D8B56C3A3D6A3CF9ADB642CE12EAC /* Pods-SakaiTVTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SakaiTVTests-frameworks.sh"; sourceTree = "<group>"; };
+		7E70C6BA4FC09E30924B28C9197F101B /* XCDYouTubeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XCDYouTubeKit.framework; path = XCDYouTubeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E78BFCB4366830C596C6FD94F869D22 /* XCDYouTubeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XCDYouTubeKit.xcconfig; sourceTree = "<group>"; };
+		82A76020D4B78BBD39C7EC5093184882 /* Pods-SakaiTVUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SakaiTVUITests-dummy.m"; sourceTree = "<group>"; };
+		87ADCF2CF784FAB2CCCCEE2A73F22A11 /* XCDYouTubeVideo+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCDYouTubeVideo+Private.h"; path = "XCDYouTubeKit/XCDYouTubeVideo+Private.h"; sourceTree = "<group>"; };
+		8BE2E232B6246EC8ABD0722EFA8BDCC7 /* Pods-SakaiTV-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SakaiTV-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94133EBB6FEEC0E7E3E329CD7790AD6B /* Pods-SakaiTVTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SakaiTVTests-dummy.m"; sourceTree = "<group>"; };
+		957D7585FB8BA556DD781FAD21B8ED55 /* XCDYouTubeDashManifestXML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeDashManifestXML.h; path = XCDYouTubeKit/XCDYouTubeDashManifestXML.h; sourceTree = "<group>"; };
+		9B1570F585F44BBFA3A70B4CE475758D /* Pods-SakaiTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SakaiTV.release.xcconfig"; sourceTree = "<group>"; };
+		9BCF443E8108886E80B76E05C3AA06B1 /* XCDYouTubeError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeError.h; path = XCDYouTubeKit/XCDYouTubeError.h; sourceTree = "<group>"; };
+		9E763C5DA221A5773882E31AB619FCB2 /* Pods-SakaiTVTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SakaiTVTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A53D3249BAA98434A36A6A1D880876D0 /* XCDYouTubeVideoOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeVideoOperation.h; path = XCDYouTubeKit/XCDYouTubeVideoOperation.h; sourceTree = "<group>"; };
+		A60B910B42934D9ACAAECFCD0FAEEF3D /* XCDYouTubeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCDYouTubeKit-prefix.pch"; sourceTree = "<group>"; };
+		AFE108A9702B4670C12F155368EE9E02 /* Pods-SakaiTV-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SakaiTV-dummy.m"; sourceTree = "<group>"; };
+		B42460ED04131F4CDF4FA0FDE3EEE6BB /* Pods-SakaiTVUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SakaiTVUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B9E0BEC5421F2C7CB9D70413D24FF54A /* XCDYouTubePlayerScript.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubePlayerScript.h; path = XCDYouTubeKit/XCDYouTubePlayerScript.h; sourceTree = "<group>"; };
+		BCFF7C45AAF4932F81221D64BE097FA5 /* XCDYouTubeLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCDYouTubeLogger.h; path = XCDYouTubeKit/XCDYouTubeLogger.h; sourceTree = "<group>"; };
+		BE8B5913BD1DA43214B120BEE9C3F465 /* XCDYouTubeLogger+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCDYouTubeLogger+Private.h"; path = "XCDYouTubeKit/XCDYouTubeLogger+Private.h"; sourceTree = "<group>"; };
+		C912E5AFC18F1858FBFE928DA0E0B871 /* Pods-SakaiTVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SakaiTVTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D22E86A636293BB0000C5BCCCFEC3FC0 /* Pods-SakaiTV.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SakaiTV.modulemap"; sourceTree = "<group>"; };
+		DD13797A6E5043911C24C5206DD9B6D5 /* Pods-SakaiTVUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SakaiTVUITests-resources.sh"; sourceTree = "<group>"; };
+		E425CAF42ABAE2C1A0D71BE1DBC49FAD /* Pods-SakaiTVUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SakaiTVUITests.modulemap"; sourceTree = "<group>"; };
+		E57175F104BBEA962D61FB17A972B346 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		EB3ED91A862446D801C2C6F763A799C1 /* XCDYouTubeClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCDYouTubeClient.m; path = XCDYouTubeKit/XCDYouTubeClient.m; sourceTree = "<group>"; };
+		F104D705A53C23ACDED1E341E42D1BBD /* Pods-SakaiTV-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SakaiTV-acknowledgements.plist"; sourceTree = "<group>"; };
+		F1B05624E39140CC94971E6E606B7278 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F41B45915DACF9FD5B1F1B95B99CA6E2 /* Pods_SakaiTVUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SakaiTVUITests.framework; path = "Pods-SakaiTVUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9C88853B9402AA75F98E899E0EA3A80 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		094FA8562B1360BDAF43C6D35E76FDDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546BD8E642F62E73C3B083840A56F3FB /* Foundation.framework in Frameworks */,
+				9E8D540F156C6638BEBB25179E186DB9 /* JavaScriptCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC106DC78E9BD3129F437C328BBFD93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF495E22ACB2DB3DD9CAEECFF4A056D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D30EFE3A397AEF183419528E63F5F6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145A67CCED12A9002321670D7580AAD0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6C4A2A70FE8B315442546A98A1CBBC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43262042940E0F1F34A55238F9EB4A84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27A0BFCE363C464B8A1E1BFE495A7881 /* XCDYouTubeKit */ = {
+			isa = PBXGroup;
+			children = (
+				34D43E55CCF386E37DEC61B33ECF5D66 /* XCDYouTubeClient.h */,
+				EB3ED91A862446D801C2C6F763A799C1 /* XCDYouTubeClient.m */,
+				957D7585FB8BA556DD781FAD21B8ED55 /* XCDYouTubeDashManifestXML.h */,
+				64E9E0A6261B6062F073AA0C1B956680 /* XCDYouTubeDashManifestXML.m */,
+				9BCF443E8108886E80B76E05C3AA06B1 /* XCDYouTubeError.h */,
+				73FF1FF830EE9A11402E4A6862E03F8D /* XCDYouTubeKit.h */,
+				BCFF7C45AAF4932F81221D64BE097FA5 /* XCDYouTubeLogger.h */,
+				43A5F8820D0662C236DC7F9E99AFE142 /* XCDYouTubeLogger.m */,
+				BE8B5913BD1DA43214B120BEE9C3F465 /* XCDYouTubeLogger+Private.h */,
+				631DA058ABFE9A66256F6F285BEC52D1 /* XCDYouTubeOperation.h */,
+				B9E0BEC5421F2C7CB9D70413D24FF54A /* XCDYouTubePlayerScript.h */,
+				43F4B81A68847EE41F427C082CA53089 /* XCDYouTubePlayerScript.m */,
+				656DA582CFA1BA3C7F220A78462FE6B6 /* XCDYouTubeVideo.h */,
+				508E00B8446CEA849010ED43E7E324D1 /* XCDYouTubeVideo.m */,
+				87ADCF2CF784FAB2CCCCEE2A73F22A11 /* XCDYouTubeVideo+Private.h */,
+				A53D3249BAA98434A36A6A1D880876D0 /* XCDYouTubeVideoOperation.h */,
+				15A6D5CA41F7FC8A5E855BF6F70D8C09 /* XCDYouTubeVideoOperation.m */,
+				098B462D3902F9A97BFE6A8CC5A85A75 /* XCDYouTubeVideoWebpage.h */,
+				0AC4A3E86553390BF76AFE5FEE329488 /* XCDYouTubeVideoWebpage.m */,
+				76073A9AC65A50B0CF3BD04FD0577BC6 /* Support Files */,
+			);
+			name = XCDYouTubeKit;
+			path = XCDYouTubeKit;
+			sourceTree = "<group>";
+		};
+		5C8E33F7D5630D66223E37ED1D2DDF74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19FED0A98D88C4DEF49995BB24A94FCC /* Pods_SakaiTV.framework */,
+				226F52D1994C5B1D223B2EF3ED8D1684 /* Pods_SakaiTVTests.framework */,
+				F41B45915DACF9FD5B1F1B95B99CA6E2 /* Pods_SakaiTVUITests.framework */,
+				7E70C6BA4FC09E30924B28C9197F101B /* XCDYouTubeKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EC461C1435A31577346ED4ADA0BD5A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BCDA02E55905BB3EAFA7B99B146EC0E /* tvOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76073A9AC65A50B0CF3BD04FD0577BC6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C2CDAF93C1128BA45D626C67F4D0D9B /* Info.plist */,
+				56E3584336EAED6795436E3D2012A8BE /* XCDYouTubeKit.modulemap */,
+				7E78BFCB4366830C596C6FD94F869D22 /* XCDYouTubeKit.xcconfig */,
+				1661EA88F223715FA4CD3D60FCC5DAE6 /* XCDYouTubeKit-dummy.m */,
+				A60B910B42934D9ACAAECFCD0FAEEF3D /* XCDYouTubeKit-prefix.pch */,
+				3CC8A68E2C7A0DF291CF5128971D6577 /* XCDYouTubeKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XCDYouTubeKit";
+			sourceTree = "<group>";
+		};
+		784A20307582B2F13D54593762C4C6BB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F5B8AEAEA2D6ACA78BA5F0CED76C2F5 /* Pods-SakaiTV */,
+				C50FBE6072EF82FC53E53C14B7B99B4F /* Pods-SakaiTVTests */,
+				878E07EA3BD6B2467E80F754CFE2A0CF /* Pods-SakaiTVUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7AD3C51BB6598225D555F61030C8BC8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27A0BFCE363C464B8A1E1BFE495A7881 /* XCDYouTubeKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				6EC461C1435A31577346ED4ADA0BD5A9 /* Frameworks */,
+				7AD3C51BB6598225D555F61030C8BC8F /* Pods */,
+				5C8E33F7D5630D66223E37ED1D2DDF74 /* Products */,
+				784A20307582B2F13D54593762C4C6BB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		878E07EA3BD6B2467E80F754CFE2A0CF /* Pods-SakaiTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9C88853B9402AA75F98E899E0EA3A80 /* Info.plist */,
+				E425CAF42ABAE2C1A0D71BE1DBC49FAD /* Pods-SakaiTVUITests.modulemap */,
+				10BB172A874CB60354359D34CAB79D23 /* Pods-SakaiTVUITests-acknowledgements.markdown */,
+				B42460ED04131F4CDF4FA0FDE3EEE6BB /* Pods-SakaiTVUITests-acknowledgements.plist */,
+				82A76020D4B78BBD39C7EC5093184882 /* Pods-SakaiTVUITests-dummy.m */,
+				3E8A8ADD3103CC27F9093BF2D8926E9A /* Pods-SakaiTVUITests-frameworks.sh */,
+				DD13797A6E5043911C24C5206DD9B6D5 /* Pods-SakaiTVUITests-resources.sh */,
+				67298B63F25B092A74F88E236C562A2D /* Pods-SakaiTVUITests-umbrella.h */,
+				5C19D54AD606DAF5EBC6456C4335C3A9 /* Pods-SakaiTVUITests.debug.xcconfig */,
+				2F4941B556E1126B7BD2B16BF7508DEE /* Pods-SakaiTVUITests.release.xcconfig */,
+			);
+			name = "Pods-SakaiTVUITests";
+			path = "Target Support Files/Pods-SakaiTVUITests";
+			sourceTree = "<group>";
+		};
+		8BCDA02E55905BB3EAFA7B99B146EC0E /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				4FEC7C7AC55997F88BE36DDCE383FDCD /* Foundation.framework */,
+				E57175F104BBEA962D61FB17A972B346 /* JavaScriptCore.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		9F5B8AEAEA2D6ACA78BA5F0CED76C2F5 /* Pods-SakaiTV */ = {
+			isa = PBXGroup;
+			children = (
+				F1B05624E39140CC94971E6E606B7278 /* Info.plist */,
+				D22E86A636293BB0000C5BCCCFEC3FC0 /* Pods-SakaiTV.modulemap */,
+				44646E27CD9F869F5CBA3E01083EF0D2 /* Pods-SakaiTV-acknowledgements.markdown */,
+				F104D705A53C23ACDED1E341E42D1BBD /* Pods-SakaiTV-acknowledgements.plist */,
+				AFE108A9702B4670C12F155368EE9E02 /* Pods-SakaiTV-dummy.m */,
+				096CD9FC4D378110A5FEE2AB182E6B63 /* Pods-SakaiTV-frameworks.sh */,
+				8BE2E232B6246EC8ABD0722EFA8BDCC7 /* Pods-SakaiTV-resources.sh */,
+				774DE6BA00ADAE640B5EC8AF0394C86F /* Pods-SakaiTV-umbrella.h */,
+				3564AC4C158B2D66D809250D0BA5EF1A /* Pods-SakaiTV.debug.xcconfig */,
+				9B1570F585F44BBFA3A70B4CE475758D /* Pods-SakaiTV.release.xcconfig */,
+			);
+			name = "Pods-SakaiTV";
+			path = "Target Support Files/Pods-SakaiTV";
+			sourceTree = "<group>";
+		};
+		C50FBE6072EF82FC53E53C14B7B99B4F /* Pods-SakaiTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				04F5E92AF028F71664BB5487234C4B50 /* Info.plist */,
+				41F9A81265131108ACC9AF9A41E182D3 /* Pods-SakaiTVTests.modulemap */,
+				9E763C5DA221A5773882E31AB619FCB2 /* Pods-SakaiTVTests-acknowledgements.markdown */,
+				6397FDAC3949282FFD409D2ABB8DED2A /* Pods-SakaiTVTests-acknowledgements.plist */,
+				94133EBB6FEEC0E7E3E329CD7790AD6B /* Pods-SakaiTVTests-dummy.m */,
+				7E0D8B56C3A3D6A3CF9ADB642CE12EAC /* Pods-SakaiTVTests-frameworks.sh */,
+				08F196AD950092375B3956B5806E3667 /* Pods-SakaiTVTests-resources.sh */,
+				08083E15CB6221B05743840F40CAFD2E /* Pods-SakaiTVTests-umbrella.h */,
+				C912E5AFC18F1858FBFE928DA0E0B871 /* Pods-SakaiTVTests.debug.xcconfig */,
+				52088AC8B85541B107B0B6747A64DDCB /* Pods-SakaiTVTests.release.xcconfig */,
+			);
+			name = "Pods-SakaiTVTests";
+			path = "Target Support Files/Pods-SakaiTVTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4836368278F8D6B8F1A2F8A09C9C2298 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B67868EBA3CD7B918ED994441B696F /* Pods-SakaiTV-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA4B2F2207391280B91577695AD3EA6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38B9636FC5FEE024C6F06308C640F6F9 /* XCDYouTubeClient.h in Headers */,
+				99CCCAB90EC5CED711AD9FD7216C2DAF /* XCDYouTubeDashManifestXML.h in Headers */,
+				AB35B8676055E031D93ED242AD4CE189 /* XCDYouTubeError.h in Headers */,
+				08CF64ED80C5D392C7155D4FBD079459 /* XCDYouTubeKit-umbrella.h in Headers */,
+				36E9450E010F607C86ADC7564CEA2151 /* XCDYouTubeKit.h in Headers */,
+				A483662D01FD93C643197BAFE8D4F4D7 /* XCDYouTubeLogger+Private.h in Headers */,
+				D8C67B5012C6F676E630A8B868A95F7C /* XCDYouTubeLogger.h in Headers */,
+				7EE9E555DC818FCA4A423B2101C9D201 /* XCDYouTubeOperation.h in Headers */,
+				9C38906F5203F35CB403E3B3F8DA00CE /* XCDYouTubePlayerScript.h in Headers */,
+				63B051251E9777C36B67CE2C7DE9251D /* XCDYouTubeVideo+Private.h in Headers */,
+				1F389E19C57124A759B46197DCA484B8 /* XCDYouTubeVideo.h in Headers */,
+				F7B66066C4C218D462CAE8EFC5721767 /* XCDYouTubeVideoOperation.h in Headers */,
+				960688FC123A7AB6DCA6056CCBC23E89 /* XCDYouTubeVideoWebpage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2E3E0808FC261B2393947FDEE87E5B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2FAB70344B4256445DEA72AA660D8B6 /* Pods-SakaiTVUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6861B9921188BC95A0568F00E7FF76 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C934153C13949B62E8BBF0F3DC173566 /* Pods-SakaiTVTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07930C5E2871E4C8210DBBD793111DE0 /* Pods-SakaiTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08DCF76EDFD610AA8185D027E7D25C3D /* Build configuration list for PBXNativeTarget "Pods-SakaiTVTests" */;
+			buildPhases = (
+				EC6861B9921188BC95A0568F00E7FF76 /* Headers */,
+				967A738C8607CB18AD421CC11E392C1F /* Sources */,
+				6D30EFE3A397AEF183419528E63F5F6C /* Frameworks */,
+				5037E91718409E8D7B68528F9B337DC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C4BFE5989D4DD40F6B069C7E5267CC5 /* PBXTargetDependency */,
+			);
+			name = "Pods-SakaiTVTests";
+			productName = "Pods-SakaiTVTests";
+			productReference = 226F52D1994C5B1D223B2EF3ED8D1684 /* Pods_SakaiTVTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2E4A60692D3F151345E3F9D266729C2E /* Pods-SakaiTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A0DA7307ED99D7014E9DB00B460ACE1 /* Build configuration list for PBXNativeTarget "Pods-SakaiTVUITests" */;
+			buildPhases = (
+				BA2E3E0808FC261B2393947FDEE87E5B /* Headers */,
+				511A34AC76D9751101DA5D5C16A81697 /* Sources */,
+				4DC106DC78E9BD3129F437C328BBFD93 /* Frameworks */,
+				FB39C2F2C865D548BFDAA2F1B4F94AA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				903D5B55C83A9552FA941FEDCE416253 /* PBXTargetDependency */,
+			);
+			name = "Pods-SakaiTVUITests";
+			productName = "Pods-SakaiTVUITests";
+			productReference = F41B45915DACF9FD5B1F1B95B99CA6E2 /* Pods_SakaiTVUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3273F9931D294BA3D97D47C90C41622C /* XCDYouTubeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FE02BB5CF21E5C0CCE7A2E0936CC88C /* Build configuration list for PBXNativeTarget "XCDYouTubeKit" */;
+			buildPhases = (
+				6DA4B2F2207391280B91577695AD3EA6 /* Headers */,
+				F9BD3673123CD6278EA22541E9F7ADFC /* Sources */,
+				094FA8562B1360BDAF43C6D35E76FDDD /* Frameworks */,
+				6621018AF5C77AD155B53A26841B52B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XCDYouTubeKit;
+			productName = XCDYouTubeKit;
+			productReference = 7E70C6BA4FC09E30924B28C9197F101B /* XCDYouTubeKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BDCCDA723BB99A851A7363433F784C47 /* Pods-SakaiTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB2E60B639C036F3F06A5CA0B9C434ED /* Build configuration list for PBXNativeTarget "Pods-SakaiTV" */;
+			buildPhases = (
+				4836368278F8D6B8F1A2F8A09C9C2298 /* Headers */,
+				509A98D0CFC81F1EB0B3A589885F7FCE /* Sources */,
+				E6C4A2A70FE8B315442546A98A1CBBC1 /* Frameworks */,
+				A853A2C724B537CB589882FE251A6AC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB202D91E113C1A6B1B53CCEFE15DA57 /* PBXTargetDependency */,
+			);
+			name = "Pods-SakaiTV";
+			productName = "Pods-SakaiTV";
+			productReference = 19FED0A98D88C4DEF49995BB24A94FCC /* Pods_SakaiTV.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5C8E33F7D5630D66223E37ED1D2DDF74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDCCDA723BB99A851A7363433F784C47 /* Pods-SakaiTV */,
+				07930C5E2871E4C8210DBBD793111DE0 /* Pods-SakaiTVTests */,
+				2E4A60692D3F151345E3F9D266729C2E /* Pods-SakaiTVUITests */,
+				3273F9931D294BA3D97D47C90C41622C /* XCDYouTubeKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5037E91718409E8D7B68528F9B337DC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6621018AF5C77AD155B53A26841B52B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A853A2C724B537CB589882FE251A6AC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB39C2F2C865D548BFDAA2F1B4F94AA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		509A98D0CFC81F1EB0B3A589885F7FCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8107FF075CBC98E80B5B129A09CA8EFA /* Pods-SakaiTV-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		511A34AC76D9751101DA5D5C16A81697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC00EF5EBA4186BD845A0A7452F8A74B /* Pods-SakaiTVUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		967A738C8607CB18AD421CC11E392C1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E17153C3D1D67D756AB7D3FDF041892 /* Pods-SakaiTVTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BD3673123CD6278EA22541E9F7ADFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4920AD09BD415E70DF3382765D736C7 /* XCDYouTubeClient.m in Sources */,
+				B2B9B7EB9CDE0543D96826C9302B6EA9 /* XCDYouTubeDashManifestXML.m in Sources */,
+				6CD482B04E58F86FE5E6077CC2848107 /* XCDYouTubeKit-dummy.m in Sources */,
+				BF60F804024B2E1451C0B7BA62F173CC /* XCDYouTubeLogger.m in Sources */,
+				234A185229CB795D7387A7AE60A6AA90 /* XCDYouTubePlayerScript.m in Sources */,
+				27F6DE3978C713B6C8729D116F615E55 /* XCDYouTubeVideo.m in Sources */,
+				495F83F20A843A57ACBDC3F5867282D4 /* XCDYouTubeVideoOperation.m in Sources */,
+				9DCDDB76A7B2E05B7CD6E5818CC9D72A /* XCDYouTubeVideoWebpage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		903D5B55C83A9552FA941FEDCE416253 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SakaiTV";
+			target = BDCCDA723BB99A851A7363433F784C47 /* Pods-SakaiTV */;
+			targetProxy = B90C8F1E899E83171408B375B925BFCE /* PBXContainerItemProxy */;
+		};
+		9C4BFE5989D4DD40F6B069C7E5267CC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SakaiTV";
+			target = BDCCDA723BB99A851A7363433F784C47 /* Pods-SakaiTV */;
+			targetProxy = 8F9C4F89B1D46CDE4CC335F2D9218D3E /* PBXContainerItemProxy */;
+		};
+		CB202D91E113C1A6B1B53CCEFE15DA57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XCDYouTubeKit;
+			target = 3273F9931D294BA3D97D47C90C41622C /* XCDYouTubeKit */;
+			targetProxy = 234B8A78ECF79988CEC1D71F0839D0FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		28CC7650AF373105F68919B661C6DA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52088AC8B85541B107B0B6747A64DDCB /* Pods-SakaiTVTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SakaiTVTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SakaiTVTests/Pods-SakaiTVTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4D8B453F8A024E3F7AAB1F0122079C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B1570F585F44BBFA3A70B4CE475758D /* Pods-SakaiTV.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SakaiTV/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SakaiTV/Pods-SakaiTV.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		61DDB147754AF40CA143CD258266E432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E78BFCB4366830C596C6FD94F869D22 /* XCDYouTubeKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XCDYouTubeKit/XCDYouTubeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XCDYouTubeKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XCDYouTubeKit/XCDYouTubeKit.modulemap";
+				PRODUCT_MODULE_NAME = XCDYouTubeKit;
+				PRODUCT_NAME = XCDYouTubeKit;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7455D862D83CFFF33CA4C28F86E7A413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F4941B556E1126B7BD2B16BF7508DEE /* Pods-SakaiTVUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SakaiTVUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SakaiTVUITests/Pods-SakaiTVUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A89AEC7689BE64AECFA78F9F0CF9B10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C19D54AD606DAF5EBC6456C4335C3A9 /* Pods-SakaiTVUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SakaiTVUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SakaiTVUITests/Pods-SakaiTVUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		83BEEA37CC29384CFA4E2AB41EBF2093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C912E5AFC18F1858FBFE928DA0E0B871 /* Pods-SakaiTVTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SakaiTVTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SakaiTVTests/Pods-SakaiTVTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87DEA4C068C2C5F42615E4F7D90836ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E78BFCB4366830C596C6FD94F869D22 /* XCDYouTubeKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XCDYouTubeKit/XCDYouTubeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XCDYouTubeKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XCDYouTubeKit/XCDYouTubeKit.modulemap";
+				PRODUCT_MODULE_NAME = XCDYouTubeKit;
+				PRODUCT_NAME = XCDYouTubeKit;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A54D182599F2765056A68563ED66C92B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Debug;
+		};
+		A94967751E9C2B3396E3773CF26E86A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Release;
+		};
+		EF7A288F71BF04BA313EBCF978B91A24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3564AC4C158B2D66D809250D0BA5EF1A /* Pods-SakaiTV.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SakaiTV/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SakaiTV/Pods-SakaiTV.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08DCF76EDFD610AA8185D027E7D25C3D /* Build configuration list for PBXNativeTarget "Pods-SakaiTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83BEEA37CC29384CFA4E2AB41EBF2093 /* Debug */,
+				28CC7650AF373105F68919B661C6DA5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54D182599F2765056A68563ED66C92B /* Debug */,
+				A94967751E9C2B3396E3773CF26E86A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FE02BB5CF21E5C0CCE7A2E0936CC88C /* Build configuration list for PBXNativeTarget "XCDYouTubeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61DDB147754AF40CA143CD258266E432 /* Debug */,
+				87DEA4C068C2C5F42615E4F7D90836ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A0DA7307ED99D7014E9DB00B460ACE1 /* Build configuration list for PBXNativeTarget "Pods-SakaiTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A89AEC7689BE64AECFA78F9F0CF9B10 /* Debug */,
+				7455D862D83CFFF33CA4C28F86E7A413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB2E60B639C036F3F06A5CA0B9C434ED /* Build configuration list for PBXNativeTarget "Pods-SakaiTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7A288F71BF04BA313EBCF978B91A24 /* Debug */,
+				4D8B453F8A024E3F7AAB1F0122079C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
